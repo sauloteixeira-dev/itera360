@@ -1,0 +1,67 @@
+string[] nomes = new string[5];
+double[] alturas = new double[5];
+
+
+int inicio = 0;
+
+int fim = -1;
+
+void EntrarNaFila(string nome, double altura)
+{
+    if (fim < 4)
+    {
+        fim++;
+        nomes[fim] = nome;
+        alturas[fim] = altura;
+
+
+        Console.WriteLine($"{nome} foi adicionado à fila na posição {fim + 1}");
+    }
+    else
+    {
+        Console.WriteLine("Fila cheia");
+    }
+}
+void PrimeiroDaFila()
+
+{
+    if (inicio <= fim)
+    {
+        Console.WriteLine($"{nomes[inicio]}, foi removido da fila!");
+
+        for (int i = inicio; i < fim; i++)
+        {
+            nomes[i] = nomes[i + 1];
+            alturas[i] = alturas[i + 1];
+        }
+        fim--;
+        if (inicio > fim)
+        {
+            inicio = 0;
+            fim = -1;
+        }
+    }
+
+    else
+    {
+        Console.WriteLine("Fila vazia");
+    }
+}
+
+EntrarNaFila("L H", 1.70);
+EntrarNaFila("M V", 1.80);
+EntrarNaFila("C L", 1.50);
+EntrarNaFila("L N", 1.65);
+EntrarNaFila("F A", 1.72);
+
+Console.WriteLine("Primeiro da fila: ");
+Console.WriteLine($"Nome: {nomes[inicio]}");
+Console.WriteLine($"Nome: {alturas[inicio]}");
+
+
+PrimeiroDaFila();
+
+
+Console.WriteLine("Primeiro da fila após remoção: ");
+Console.WriteLine($"Nome: {nomes[inicio]}");
+Console.WriteLine($"Nome: {alturas[inicio]}");

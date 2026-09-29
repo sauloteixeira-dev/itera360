@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\bin\Debug\net8.0\3.precoComDesconto.exe
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\bin\Debug\net8.0\3.precoComDesconto.deps.json
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\bin\Debug\net8.0\3.precoComDesconto.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\bin\Debug\net8.0\3.precoComDesconto.dll
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\bin\Debug\net8.0\3.precoComDesconto.pdb
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.dll
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\refint\3.precoComDesconto.dll
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.pdb
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\3.precoComDesconto.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\3.precoComDesconto\obj\Debug\net8.0\ref\3.precoComDesconto.dll

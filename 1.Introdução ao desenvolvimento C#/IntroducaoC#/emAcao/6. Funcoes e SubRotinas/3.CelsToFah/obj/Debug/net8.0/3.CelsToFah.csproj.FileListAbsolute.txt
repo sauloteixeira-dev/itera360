@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\bin\Debug\net8.0\3.CelsToFah.exe
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\bin\Debug\net8.0\3.CelsToFah.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\bin\Debug\net8.0\3.CelsToFah.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\bin\Debug\net8.0\3.CelsToFah.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\bin\Debug\net8.0\3.CelsToFah.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\refint\3.CelsToFah.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\3.CelsToFah.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\3.CelsToFah\obj\Debug\net8.0\ref\3.CelsToFah.dll

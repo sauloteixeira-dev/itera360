@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\bin\Debug\net8.0\3.AvistaAprazo.exe
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\bin\Debug\net8.0\3.AvistaAprazo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\bin\Debug\net8.0\3.AvistaAprazo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\bin\Debug\net8.0\3.AvistaAprazo.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\bin\Debug\net8.0\3.AvistaAprazo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\refint\3.AvistaAprazo.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\3.AvistaAprazo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\3.AvistaAprazo\obj\Debug\net8.0\ref\3.AvistaAprazo.dll

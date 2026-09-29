@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\bin\Debug\net8.0\5.nPar.exe
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\bin\Debug\net8.0\5.nPar.deps.json
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\bin\Debug\net8.0\5.nPar.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\bin\Debug\net8.0\5.nPar.dll
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\bin\Debug\net8.0\5.nPar.pdb
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.dll
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\refint\5.nPar.dll
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.pdb
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\5.nPar.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\5. Para e Enquanto REVER\5.nPar\obj\Debug\net8.0\ref\5.nPar.dll

@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\bin\Debug\net8.0\1.quadradoNumero.exe
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\bin\Debug\net8.0\1.quadradoNumero.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\bin\Debug\net8.0\1.quadradoNumero.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\bin\Debug\net8.0\1.quadradoNumero.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\bin\Debug\net8.0\1.quadradoNumero.pdb
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\refint\1.quadradoNumero.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.pdb
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\1.quadradoNumero.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\1.quadradoNumero\obj\Debug\net8.0\ref\1.quadradoNumero.dll

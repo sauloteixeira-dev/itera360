@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\debugapp_aula6\bin\Debug\net8.0\debugapp_aula6.exe
+C:\Alunos\SauloTeixeira\debugapp_aula6\bin\Debug\net8.0\debugapp_aula6.deps.json
+C:\Alunos\SauloTeixeira\debugapp_aula6\bin\Debug\net8.0\debugapp_aula6.runtimeconfig.json
+C:\Alunos\SauloTeixeira\debugapp_aula6\bin\Debug\net8.0\debugapp_aula6.dll
+C:\Alunos\SauloTeixeira\debugapp_aula6\bin\Debug\net8.0\debugapp_aula6.pdb
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.dll
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\refint\debugapp_aula6.dll
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.pdb
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\debugapp_aula6.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\debugapp_aula6\obj\Debug\net8.0\ref\debugapp_aula6.dll

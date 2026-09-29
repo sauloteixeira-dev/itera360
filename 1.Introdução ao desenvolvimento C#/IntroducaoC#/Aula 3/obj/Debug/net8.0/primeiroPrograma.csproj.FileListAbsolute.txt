@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\Aula 3\bin\Debug\net8.0\primeiroPrograma.exe
+C:\Alunos\SauloTeixeira\Aula 3\bin\Debug\net8.0\primeiroPrograma.deps.json
+C:\Alunos\SauloTeixeira\Aula 3\bin\Debug\net8.0\primeiroPrograma.runtimeconfig.json
+C:\Alunos\SauloTeixeira\Aula 3\bin\Debug\net8.0\primeiroPrograma.dll
+C:\Alunos\SauloTeixeira\Aula 3\bin\Debug\net8.0\primeiroPrograma.pdb
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.dll
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\refint\primeiroPrograma.dll
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.pdb
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\primeiroPrograma.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\Aula 3\obj\Debug\net8.0\ref\primeiroPrograma.dll

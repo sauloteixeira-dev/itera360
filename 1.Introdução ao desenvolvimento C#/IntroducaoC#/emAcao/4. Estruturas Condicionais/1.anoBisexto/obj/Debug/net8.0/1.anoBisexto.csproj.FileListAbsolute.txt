@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\bin\Debug\net8.0\1.anoBisexto.exe
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\bin\Debug\net8.0\1.anoBisexto.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\bin\Debug\net8.0\1.anoBisexto.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\bin\Debug\net8.0\1.anoBisexto.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\bin\Debug\net8.0\1.anoBisexto.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\refint\1.anoBisexto.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\1.anoBisexto.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\1.anoBisexto\obj\Debug\net8.0\ref\1.anoBisexto.dll

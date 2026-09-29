@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\bin\Debug\net8.0\2.classNota.exe
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\bin\Debug\net8.0\2.classNota.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\bin\Debug\net8.0\2.classNota.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\bin\Debug\net8.0\2.classNota.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\bin\Debug\net8.0\2.classNota.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\refint\2.classNota.dll
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.pdb
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\2.classNota.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Estruturas Condicionais\2.classNota\obj\Debug\net8.0\ref\2.classNota.dll

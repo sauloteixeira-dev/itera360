@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\bin\Debug\net8.0\6.minToHoras.exe
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\bin\Debug\net8.0\6.minToHoras.deps.json
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\bin\Debug\net8.0\6.minToHoras.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\bin\Debug\net8.0\6.minToHoras.dll
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\bin\Debug\net8.0\6.minToHoras.pdb
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.dll
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\refint\6.minToHoras.dll
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.pdb
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\6.minToHoras.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\5.minToHoras\obj\Debug\net8.0\ref\6.minToHoras.dll

@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\IMC\bin\Debug\net8.0\emAcao.exe
+C:\Alunos\SauloTeixeira\emAcao\IMC\bin\Debug\net8.0\emAcao.deps.json
+C:\Alunos\SauloTeixeira\emAcao\IMC\bin\Debug\net8.0\emAcao.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\IMC\bin\Debug\net8.0\emAcao.dll
+C:\Alunos\SauloTeixeira\emAcao\IMC\bin\Debug\net8.0\emAcao.pdb
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.dll
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\refint\emAcao.dll
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.pdb
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\emAcao.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\IMC\obj\Debug\net8.0\ref\emAcao.dll

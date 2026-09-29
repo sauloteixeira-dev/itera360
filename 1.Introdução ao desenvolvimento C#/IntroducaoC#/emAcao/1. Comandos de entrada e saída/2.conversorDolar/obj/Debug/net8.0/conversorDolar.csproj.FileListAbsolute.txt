@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\bin\Debug\net8.0\conversorDolar.exe
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\bin\Debug\net8.0\conversorDolar.deps.json
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\bin\Debug\net8.0\conversorDolar.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\bin\Debug\net8.0\conversorDolar.dll
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\bin\Debug\net8.0\conversorDolar.pdb
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.dll
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\refint\conversorDolar.dll
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.pdb
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\conversorDolar.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\2.conversorDolar\obj\Debug\net8.0\ref\conversorDolar.dll

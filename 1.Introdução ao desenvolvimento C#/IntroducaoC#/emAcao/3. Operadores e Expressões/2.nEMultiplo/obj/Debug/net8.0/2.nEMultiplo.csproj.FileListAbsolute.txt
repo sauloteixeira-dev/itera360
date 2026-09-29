@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\bin\Debug\net8.0\2.nEMultiplo.exe
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\bin\Debug\net8.0\2.nEMultiplo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\bin\Debug\net8.0\2.nEMultiplo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\bin\Debug\net8.0\2.nEMultiplo.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\bin\Debug\net8.0\2.nEMultiplo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\refint\2.nEMultiplo.dll
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\2.nEMultiplo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Operadores e Expressões\2.nEMultiplo\obj\Debug\net8.0\ref\2.nEMultiplo.dll

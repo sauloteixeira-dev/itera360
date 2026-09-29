@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\bin\Debug\net8.0\Exercicio4.exe
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\bin\Debug\net8.0\Exercicio4.deps.json
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\bin\Debug\net8.0\Exercicio4.runtimeconfig.json
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\bin\Debug\net8.0\Exercicio4.dll
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\bin\Debug\net8.0\Exercicio4.pdb
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.dll
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\refint\Exercicio4.dll
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.pdb
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\Exercicio4.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\Exercícios - extra\exercicio4\obj\Debug\net8.0\ref\Exercicio4.dll

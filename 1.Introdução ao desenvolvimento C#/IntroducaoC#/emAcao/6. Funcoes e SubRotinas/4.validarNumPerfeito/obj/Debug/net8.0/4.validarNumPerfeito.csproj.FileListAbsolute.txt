@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\bin\Debug\net8.0\4.validarNumPerfeito.exe
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\bin\Debug\net8.0\4.validarNumPerfeito.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\bin\Debug\net8.0\4.validarNumPerfeito.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\bin\Debug\net8.0\4.validarNumPerfeito.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\bin\Debug\net8.0\4.validarNumPerfeito.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\refint\4.validarNumPerfeito.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\4.validarNumPerfeito.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\4.validarNumPerfeito\obj\Debug\net8.0\ref\4.validarNumPerfeito.dll

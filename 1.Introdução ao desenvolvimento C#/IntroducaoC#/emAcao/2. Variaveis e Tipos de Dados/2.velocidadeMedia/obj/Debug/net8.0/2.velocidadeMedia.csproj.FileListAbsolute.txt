@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\bin\Debug\net8.0\2.velocidadeMedia.exe
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\bin\Debug\net8.0\2.velocidadeMedia.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\bin\Debug\net8.0\2.velocidadeMedia.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\bin\Debug\net8.0\2.velocidadeMedia.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\bin\Debug\net8.0\2.velocidadeMedia.pdb
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\refint\2.velocidadeMedia.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.pdb
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\2.velocidadeMedia.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\2.velocidadeMedia\obj\Debug\net8.0\ref\2.velocidadeMedia.dll

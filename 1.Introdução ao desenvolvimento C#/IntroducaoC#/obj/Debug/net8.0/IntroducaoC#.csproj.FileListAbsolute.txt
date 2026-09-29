@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\IntroducaoC#\bin\Debug\net8.0\IntroducaoC#.exe
+C:\Alunos\SauloTeixeira\IntroducaoC#\bin\Debug\net8.0\IntroducaoC#.deps.json
+C:\Alunos\SauloTeixeira\IntroducaoC#\bin\Debug\net8.0\IntroducaoC#.runtimeconfig.json
+C:\Alunos\SauloTeixeira\IntroducaoC#\bin\Debug\net8.0\IntroducaoC#.dll
+C:\Alunos\SauloTeixeira\IntroducaoC#\bin\Debug\net8.0\IntroducaoC#.pdb
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.dll
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\refint\IntroducaoC#.dll
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.pdb
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\IntroducaoC#.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\IntroducaoC#\obj\Debug\net8.0\ref\IntroducaoC#.dll

@@ -1,0 +1,35 @@
+// int firstNum = 0;
+// int secondNum = 0;
+// int soma = 0;
+
+
+// Console.WriteLine("Digite o primeiro numero");
+// firstNum = Convert.ToInt32(Console.ReadLine());
+
+
+// Console.WriteLine("Digite o segundo numero");
+// secondNum = Convert.ToInt32(Console.ReadLine());
+
+
+// soma = SomarTwoNum(firstNum, secondNum);
+
+
+// EscrevaOResultado(soma);
+
+
+// //Função para somar 2 numeros
+// int SomarTwoNum(int a, int b)
+// {
+//     return a + b;
+// }
+
+
+// //Sub-rotina (Função sem retorno)
+// void EscrevaOResultado(int resultado)
+// {
+//     Console.WriteLine($"O resultado da soma é : {resultado}");
+// }
+
+//---------------------------------\\-----------------------------
+
+//Exercícios

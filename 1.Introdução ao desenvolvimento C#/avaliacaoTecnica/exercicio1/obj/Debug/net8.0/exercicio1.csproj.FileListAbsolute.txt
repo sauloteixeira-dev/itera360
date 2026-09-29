@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\bin\Debug\net8.0\exercicio1.exe
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\bin\Debug\net8.0\exercicio1.deps.json
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\bin\Debug\net8.0\exercicio1.runtimeconfig.json
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\bin\Debug\net8.0\exercicio1.dll
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\bin\Debug\net8.0\exercicio1.pdb
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.dll
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\refint\exercicio1.dll
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.pdb
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\exercicio1.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\avaliacaoTecnica\exercicio1\obj\Debug\net8.0\ref\exercicio1.dll

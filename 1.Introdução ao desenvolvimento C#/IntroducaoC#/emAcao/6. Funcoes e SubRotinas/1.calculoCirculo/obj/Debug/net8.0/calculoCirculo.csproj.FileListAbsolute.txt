@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\bin\Debug\net8.0\calculoCirculo.exe
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\bin\Debug\net8.0\calculoCirculo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\bin\Debug\net8.0\calculoCirculo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\bin\Debug\net8.0\calculoCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\bin\Debug\net8.0\calculoCirculo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\refint\calculoCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\calculoCirculo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\calculoCirculo\obj\Debug\net8.0\ref\calculoCirculo.dll

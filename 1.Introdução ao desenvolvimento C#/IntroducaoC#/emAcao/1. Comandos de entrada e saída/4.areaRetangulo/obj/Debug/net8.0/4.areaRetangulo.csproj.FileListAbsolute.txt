@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\bin\Debug\net8.0\4.areaRetangulo.exe
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\bin\Debug\net8.0\4.areaRetangulo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\bin\Debug\net8.0\4.areaRetangulo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\bin\Debug\net8.0\4.areaRetangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\bin\Debug\net8.0\4.areaRetangulo.pdb
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\refint\4.areaRetangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.pdb
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\4.areaRetangulo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\4.areaRetangulo\obj\Debug\net8.0\ref\4.areaRetangulo.dll

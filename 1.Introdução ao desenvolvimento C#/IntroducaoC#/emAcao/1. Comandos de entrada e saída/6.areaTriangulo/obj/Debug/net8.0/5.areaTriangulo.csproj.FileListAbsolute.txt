@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\bin\Debug\net8.0\5.areaTriangulo.exe
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\bin\Debug\net8.0\5.areaTriangulo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\bin\Debug\net8.0\5.areaTriangulo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\bin\Debug\net8.0\5.areaTriangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\bin\Debug\net8.0\5.areaTriangulo.pdb
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\refint\5.areaTriangulo.dll
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.pdb
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\5.areaTriangulo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\5.areaTriangulo\obj\Debug\net8.0\ref\5.areaTriangulo.dll

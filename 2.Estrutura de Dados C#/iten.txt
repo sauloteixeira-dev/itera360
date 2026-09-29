@@ -1,0 +1,130 @@
+string[] agendas = new string[5];
+int[] numeros = new int[5];
+int opcao;
+int inicio = -1;
+string contato;
+int numero;
+int retirar;
+
+do
+{
+    Console.WriteLine("================================");
+    Console.WriteLine("\nBem vindo a Agenda!\n");
+    Console.WriteLine("================================");
+    Console.WriteLine("\nInforme a opção desejada: ");
+    Console.WriteLine("1 - Adicionar novo Contato\n2 - Remover Contato Nº1\n3 - Listar Contatos\n4 - Remover Contato por Numero\n0 - Sair\n\n");
+    opcao = int.Parse(Console.ReadLine());
+
+    if (opcao == 1)
+    {
+
+        Console.WriteLine("Informe o Nome do Contato: \n");
+        contato = Console.ReadLine().ToUpper();
+        Console.WriteLine("Informe o Número do contato:\n");
+        numero = int.Parse(Console.ReadLine());
+        AdicionarNovoContato(contato, numero);
+    }
+    else if (opcao == 2)
+    {
+
+        RemoverContatos();
+    }
+    else if (opcao == 3)
+    {
+
+        MostrarNomesDaAgenda();
+
+    }
+    else if (opcao == 4)
+    {
+        MostrarNomesDaAgenda();
+        Console.WriteLine("\nInforme um numero para retirar:\n");
+        retirar = int.Parse(Console.ReadLine());
+        RemoverPorNumero(retirar);
+    }
+
+} while (opcao != 0);
+
+
+void AdicionarNovoContato(string contato, int num)
+{
+    if (inicio < 4)
+    {
+        inicio++;
+        agendas[inicio] = contato;
+        numeros[inicio] = num;
+
+        Console.WriteLine($"\nAdicionado:\nContato: {contato}\nNumero: {num}");
+    }
+    else
+    {
+        Console.WriteLine("\nAgenda cheia!");
+    }
+}
+
+void MostrarNomesDaAgenda()
+{
+    if (inicio >= 0)
+    {
+        Console.WriteLine("\nContato:");
+        for (int i = 0; i <= inicio; i++)
+        {
+
+            Console.WriteLine($"\nNº:{i + 1} Nome: {agendas[i]}, Tel: {numeros[i]}");
+        }
+    }
+    else
+    {
+        Console.WriteLine("A lista está vazia!");
+    }
+}
+
+
+void RemoverContatos()
+{
+    if (inicio >= 0)
+    {
+        Console.WriteLine($"\n{agendas[0]},{numeros[0]}, foram removidos\n");
+
+        for (int i = 0; i < inicio; i++)
+        {
+            agendas[i] = agendas[i + 1];
+            numeros[i] = numeros[i + 1];
+        }
+        agendas[inicio] = null;
+        numeros[inicio] = 0;
+        inicio--;
+    }
+    else
+    {
+        Console.WriteLine("\n");
+        Console.WriteLine("\nA agenda está vazia");
+    }
+}
+
+void RemoverPorNumero(int numeroEscolhido)
+{
+
+    int indice = numeroEscolhido - 1;
+
+    if (inicio >= 0 && indice >= 0 && indice <= inicio)
+    {
+        Console.WriteLine($"\nRemovendo: {agendas[indice]}, {numeros[indice]}");
+
+
+        for (int i = indice; i < inicio; i++)
+        {
+            agendas[i] = agendas[i + 1];
+            numeros[i] = numeros[i + 1];
+        }
+        agendas[inicio] = null;
+        numeros[inicio] = 0;
+        inicio--;
+
+        Console.WriteLine("Contato removido com sucesso!");
+    }
+    else
+    {
+        Console.WriteLine("\nOpção inválida!");
+    }
+}

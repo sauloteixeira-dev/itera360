@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\7.hora\bin\Debug\net8.0\7.hora.exe
+C:\Alunos\SauloTeixeira\emAcao\7.hora\bin\Debug\net8.0\7.hora.deps.json
+C:\Alunos\SauloTeixeira\emAcao\7.hora\bin\Debug\net8.0\7.hora.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\7.hora\bin\Debug\net8.0\7.hora.dll
+C:\Alunos\SauloTeixeira\emAcao\7.hora\bin\Debug\net8.0\7.hora.pdb
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.dll
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\refint\7.hora.dll
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.pdb
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\7.hora.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\7.hora\obj\Debug\net8.0\ref\7.hora.dll

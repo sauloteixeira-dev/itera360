@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\bin\Debug\net8.0\2.mmc.exe
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\bin\Debug\net8.0\2.mmc.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\bin\Debug\net8.0\2.mmc.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\bin\Debug\net8.0\2.mmc.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\bin\Debug\net8.0\2.mmc.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\refint\2.mmc.dll
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.pdb
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\2.mmc.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Funcoes e SubRotinas\2.mmc\obj\Debug\net8.0\ref\2.mmc.dll

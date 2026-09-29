@@ -1,0 +1,14 @@
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\bin\Debug\net8.0\1.areaCirculo.exe
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\bin\Debug\net8.0\1.areaCirculo.deps.json
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\bin\Debug\net8.0\1.areaCirculo.runtimeconfig.json
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\bin\Debug\net8.0\1.areaCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\bin\Debug\net8.0\1.areaCirculo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\refint\1.areaCirculo.dll
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.pdb
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\1.areaCirculo.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\emAcao\Variaveis e Tipos de Dados\1.areaCirculo\obj\Debug\net8.0\ref\1.areaCirculo.dll
