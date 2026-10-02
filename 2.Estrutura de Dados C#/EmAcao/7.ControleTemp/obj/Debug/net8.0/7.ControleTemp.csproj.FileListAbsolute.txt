@@ -12,3 +12,4 @@ C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\EmAcao\7.ControleTemp\obj\Debug\
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\EmAcao\7.ControleTemp\obj\Debug\net8.0\7.ControleTemp.pdb
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\EmAcao\7.ControleTemp\obj\Debug\net8.0\7.ControleTemp.genruntimeconfig.cache
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\EmAcao\7.ControleTemp\obj\Debug\net8.0\ref\7.ControleTemp.dll
+C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\EmAcao\7.ControleTemp\obj\Debug\net8.0\7.ControleTemp.sourcelink.json

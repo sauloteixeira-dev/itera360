@@ -16,7 +16,7 @@ double primeiraNotaBim, segundaNotaBim, terceiraNotaBim, quartaNotaBim;
 
 //arrays
 string[] alunos = new string[tamanhoArray];
-double[] notas = new double[tamanhoArray * quantidadeNotasPorAno]; //20
+double[,] notas = new double[tamanhoArray, quantidadeNotasPorAno]; //5x4
 string[] status = new string[tamanhoArray];
 
 // double[,] joao = new double[5, 5]; coluna x linha
@@ -108,45 +108,34 @@ void CadastroAlunos(string nome, double notaUm, double notaDois, double notaTres
         else
         {
             inicio++;
+           
+                for (int i = 0; i < notas.Length; i++)
+                {
+                    alunos[inicio] = nome.ToUpper();
+                    notas[inicio, 1] = notaUm; 
+                    notas[inicio, 2] = notaDois;
+                    notas[inicio, 3] = notaTres;
+                    notas[inicio, 4] = notaQuatro; 
+                }
 
-            // if (inicio == 0)
-            // {
-            alunos[inicio] = nome.ToUpper();//alunos[0] = joao-------- 0 --------1
-            notas[inicio][inicio] = notaUm;
-            notas[inicio + 1] = notaDois;//notas[1] = 6--------1--------2
-            notas[inicio + 2] = notaTres;//notas[2] = 8--------2--------3
-            notas[inicio + 3] = notaQuatro;//notas[3] = 8--------3--------4
+                media = notaUm + notaDois + notaTres + notaQuatro / 4;
 
-            // }
-            // else
-            // {
-            // for (int i = 4; i < notas.Length; i++)
-            // {
-            //     alunos[inicio] = nome.ToUpper();
-            //     notas[i] = notaUm; //notas[4] = x
-            //     notas[i + 1] = notaDois;//notas[5] = y
-            //     notas[i + 2] = notaTres;//notas[6] = z
-            //     notas[i + 3] = notaQuatro; // notas[7]
-            // }
-
-            media = notaUm + notaDois + notaTres + notaQuatro / 4;
-
-            if (media >= 7)
-            {
-                Console.WriteLine($"Aluno : {nome} está: Aprovado!");
-            }
-            else if (media >= 5 && media < 7)
-            {
-                Console.WriteLine($"Aluno : {nome} está: Recuperação!");
-            }
-            else
-            {
-                Console.WriteLine($"Aluno : {nome} está: Reprovado!");
+                if (media >= 7)
+                {
+                    Console.WriteLine($"Aluno : {nome} está: Aprovado!");
+                }
+                else if (media >= 5 && media < 7)
+                {
+                    Console.WriteLine($"Aluno : {nome} está: Recuperação!");
+                }
+                else
+                {
+                    Console.WriteLine($"Aluno : {nome} está: Reprovado!");
+                }
             }
         }
     }
 }
-// }
 
 
 void mostrarAlunosCadastrados()
@@ -157,7 +146,7 @@ void mostrarAlunosCadastrados()
 
         for (int i = 0; i <= inicio; i++)
         {
-            Console.WriteLine($"Nº: {i + 1} Aluno: {alunos[i]} | Notas: 1ª:{notas[inicio]} 2ª: {notas[i + 1]} 3ª: {notas[i + 2]} 4ª: {notas[i + 3]} | Status: {status[0]} aprovado? verificar");
+            Console.WriteLine($"Nº: {i + 1} Aluno: {alunos[i]} | Notas: 1ª:{notas[inicio, 0]} 2ª: {notas[i, 1]} 3ª: {notas[i, 2]} 4ª: {notas[i, 3]} | Status: {status[0]} aprovado? verificar");
             Console.WriteLine("");
         }
     }

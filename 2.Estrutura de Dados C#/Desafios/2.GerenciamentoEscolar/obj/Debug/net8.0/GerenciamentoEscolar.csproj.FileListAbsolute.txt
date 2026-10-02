@@ -12,3 +12,4 @@ C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\Desafios\2.GerenciamentoEscolar\
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\Desafios\2.GerenciamentoEscolar\obj\Debug\net8.0\GerenciamentoEscolar.pdb
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\Desafios\2.GerenciamentoEscolar\obj\Debug\net8.0\GerenciamentoEscolar.genruntimeconfig.cache
 C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\Desafios\2.GerenciamentoEscolar\obj\Debug\net8.0\ref\GerenciamentoEscolar.dll
+C:\Alunos\SauloTeixeira\2.Estrutura de Dados C#\Desafios\2.GerenciamentoEscolar\obj\Debug\net8.0\GerenciamentoEscolar.sourcelink.json
