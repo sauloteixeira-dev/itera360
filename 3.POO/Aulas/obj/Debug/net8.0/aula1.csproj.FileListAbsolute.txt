@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\3.POO\aula1\bin\Debug\net8.0\aula1.exe
+C:\Alunos\SauloTeixeira\3.POO\aula1\bin\Debug\net8.0\aula1.deps.json
+C:\Alunos\SauloTeixeira\3.POO\aula1\bin\Debug\net8.0\aula1.runtimeconfig.json
+C:\Alunos\SauloTeixeira\3.POO\aula1\bin\Debug\net8.0\aula1.dll
+C:\Alunos\SauloTeixeira\3.POO\aula1\bin\Debug\net8.0\aula1.pdb
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.sourcelink.json
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.dll
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\refint\aula1.dll
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.pdb
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\aula1.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\3.POO\aula1\obj\Debug\net8.0\ref\aula1.dll
