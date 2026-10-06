@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pHQ5nn8S+3c=",
+  "dgSpecHash": "xlLI8jtrtVw=",
   "success": true,
-  "projectFilePath": "C:\\Alunos\\SauloTeixeira\\3.POO\\aula1\\aula1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\Itera360\\Itera360\\3.POO\\Aulas\\aula1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
