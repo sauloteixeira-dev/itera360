@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\bin\Debug\net8.0\Aula6_Exercicio.exe
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\bin\Debug\net8.0\Aula6_Exercicio.deps.json
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\bin\Debug\net8.0\Aula6_Exercicio.runtimeconfig.json
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\bin\Debug\net8.0\Aula6_Exercicio.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\bin\Debug\net8.0\Aula6_Exercicio.pdb
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.sourcelink.json
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\refint\Aula6_Exercicio.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.pdb
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\Aula6_Exercicio.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula6_Exercicio\obj\Debug\net8.0\ref\Aula6_Exercicio.dll
