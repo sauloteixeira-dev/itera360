@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\bin\Debug\net8.0\Aula9_Atividade.exe
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\bin\Debug\net8.0\Aula9_Atividade.deps.json
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\bin\Debug\net8.0\Aula9_Atividade.runtimeconfig.json
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\bin\Debug\net8.0\Aula9_Atividade.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\bin\Debug\net8.0\Aula9_Atividade.pdb
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.sourcelink.json
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\refint\Aula9_Atividade.dll
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.pdb
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\Aula9_Atividade.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\3.POO\Aula9_Atividade\obj\Debug\net8.0\ref\Aula9_Atividade.dll

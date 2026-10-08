@@ -1,15 +1,15 @@
 class CarroDeCorrida : Carro
 {
-    #region Props
-    public string Equipe { get; set; }
-    public string Motor { get; set; }
-    #endregion
+    // #region Props
+    // public string Equipe { get; set; }
+    // public string Motor { get; set; }
+    // #endregion
 
-    public CarroDeCorrida(string equipe, string motor) : base()
-    {
-        Equipe = equipe;
-        Motor = motor;
-    }
+    // public CarroDeCorrida(string equipe, string motor) : base()
+    // {
+    //     Equipe = equipe;
+    //     Motor = motor;
+    // }
 
 
     #region Comportamentos

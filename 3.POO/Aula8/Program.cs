@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
 
-        var fiat = new CarroDeCorrida("Ferrari", "800");
+        var fiat = new CarroDeCorrida();
         var fiorino = new CarroDeCarga();
 
         fiat.Acelerar();

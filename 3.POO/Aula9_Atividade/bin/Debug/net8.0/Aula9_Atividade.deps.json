@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Aula9_Atividade/1.0.0": {
+        "runtime": {
+          "Aula9_Atividade.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aula9_Atividade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

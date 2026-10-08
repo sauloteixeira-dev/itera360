@@ -1,4 +1,4 @@
-class Carro
+abstract class Carro
 {
     //atributos
     #region Atributos

@@ -1,7 +1,7 @@
 class CarroDeCarga : Carro
 {
     #region Props
-    public double PesoSuportado { get; set; }
+    // public double PesoSuportado { get; set; }
 
     #endregion
 
