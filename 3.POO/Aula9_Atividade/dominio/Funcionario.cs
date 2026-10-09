@@ -4,7 +4,7 @@ class Funcionario : IFuncionario
     private string _nome;
     protected decimal _salario;
     private int _matricula;
-    private bool _situacao;
+    private string _situacao;
     #endregion
 
     #region props
@@ -23,14 +23,14 @@ class Funcionario : IFuncionario
         get { return _matricula; }
         set { _matricula = value; }
     }
-    public bool Situacao
+    public string Situacao
     {
         get { return _situacao; }
         set { _situacao = value; }
     }
     #endregion
 
-    public Funcionario(string nome, decimal salario, bool situacao)
+    public Funcionario(string nome, decimal salario, string situacao)
     {
         int r = new Random().Next(1, 1000);
         _matricula = r;
@@ -39,13 +39,20 @@ class Funcionario : IFuncionario
         _situacao = situacao;
     }
 
-    public void DarAumento(decimal valor)
+    public virtual void DarAumento(decimal valor)
     {
         decimal dezPorcento = Salario * 10 / 100;
         Salario += dezPorcento;
     }
     public void Demitir()
     {
-        _situacao = Situacao;
+        if (_situacao == "Contratado")
+        {
+            _situacao = "Demitido" ;
+        }
+        else
+        {
+            _situacao = "Demitido";
+        }
     }
 }
