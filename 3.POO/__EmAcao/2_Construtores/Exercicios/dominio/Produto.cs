@@ -7,18 +7,18 @@ class Produto
     #endregion
 
     #region Props
-    public string Nome { get; set; }
-    public decimal Preco { get; set; }
-    public int Quantidade { get; set; }
+    public string Nome { get { return _nome; } set { _nome = value; } }
+    public decimal Preco { get { return _preco; } set { _preco = value; } }
+    public int Quantidade { get { return _quantidade; } set { _quantidade = value; } }
     #endregion
 
     #region Construores
-    public Produto(string nome, decimal preco, int quantidade)
+    public Produto(string nome, decimal preco)
     {
-        quantidade = 0;
+        
         Nome = nome;
         Preco = preco;
-        Quantidade = quantidade;
+        Quantidade = 0;
     }
     #endregion
 }

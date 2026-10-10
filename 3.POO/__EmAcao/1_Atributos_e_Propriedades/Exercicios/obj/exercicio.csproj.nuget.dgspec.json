@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Alunos\\SauloTeixeira\\3.POO\\EmAcao\\1_Atributos_e_Propriedades\\exercicio\\exercicio.csproj": {}
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\__EmAcao\\1_Atributos_e_Propriedades\\Exercicios\\exercicio.csproj": {}
   },
   "projects": {
-    "C:\\Alunos\\SauloTeixeira\\3.POO\\EmAcao\\1_Atributos_e_Propriedades\\exercicio\\exercicio.csproj": {
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\__EmAcao\\1_Atributos_e_Propriedades\\Exercicios\\exercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\3.POO\\EmAcao\\1_Atributos_e_Propriedades\\exercicio\\exercicio.csproj",
+        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\3.POO\\__EmAcao\\1_Atributos_e_Propriedades\\Exercicios\\exercicio.csproj",
         "projectName": "exercicio",
-        "projectPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\EmAcao\\1_Atributos_e_Propriedades\\exercicio\\exercicio.csproj",
+        "projectPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\__EmAcao\\1_Atributos_e_Propriedades\\Exercicios\\exercicio.csproj",
         "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
-        "outputPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\EmAcao\\1_Atributos_e_Propriedades\\exercicio\\obj\\",
+        "outputPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\__EmAcao\\1_Atributos_e_Propriedades\\Exercicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",

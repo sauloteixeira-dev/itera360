@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\bin\Debug\net8.0\exercicios.exe
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\bin\Debug\net8.0\exercicios.deps.json
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\bin\Debug\net8.0\exercicios.runtimeconfig.json
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\bin\Debug\net8.0\exercicios.dll
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\bin\Debug\net8.0\exercicios.pdb
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.sourcelink.json
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.dll
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\refint\exercicios.dll
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.pdb
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\exercicios.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\3.POO\__EmAcao\4_Heranca\exercicios\obj\Debug\net8.0\ref\exercicios.dll

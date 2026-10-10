@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aula8_EmAcao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b7bf46e9ba2bea00bc27e98045d6749b809509")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4bd6a14f81f718528bbfd49c842c4636022451b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aula8_EmAcao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aula8_EmAcao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_EmAcao\\Aula8_EmAcao.csproj": {}
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_Atividade\\Aula8_EmAcao.csproj": {}
   },
   "projects": {
-    "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_EmAcao\\Aula8_EmAcao.csproj": {
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_Atividade\\Aula8_EmAcao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_EmAcao\\Aula8_EmAcao.csproj",
+        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_Atividade\\Aula8_EmAcao.csproj",
         "projectName": "Aula8_EmAcao",
-        "projectPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_EmAcao\\Aula8_EmAcao.csproj",
+        "projectPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_Atividade\\Aula8_EmAcao.csproj",
         "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
-        "outputPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_EmAcao\\obj\\",
+        "outputPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\Aula8_Atividade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,5 +11,6 @@
 
         System.Console.WriteLine($"A velocidade atual do Fiat é: {fiat.Velocidade}");
         System.Console.WriteLine($"A velocidade atual da Fiorino é: {fiorino.Velocidade}");
+        System.Console.WriteLine($"Cor: {fiat.Cor} ");
     }
 }
