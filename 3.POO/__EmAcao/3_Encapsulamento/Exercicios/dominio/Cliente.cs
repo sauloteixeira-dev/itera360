@@ -3,7 +3,7 @@ class Cliente
     #region Atrib
     private string _nome;
     private string _endereco;
-    private int _telefone;
+
     #endregion
 
     #region Props
@@ -27,8 +27,12 @@ class Cliente
         Telefone = tel;
     }
 
-    public void MostrarTelefone(){
-        System.Console.WriteLine($"{Telefone}: Essa é a Propriedade\n {_telefone}: Esse é o atributo");
+
+    public void MostrarTelefone()
+    {
+        System.Console.WriteLine($"{Telefone}");
     }
+
+
     #endregion
 }

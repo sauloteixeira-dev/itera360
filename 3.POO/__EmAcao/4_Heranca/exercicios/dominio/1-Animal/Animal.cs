@@ -11,10 +11,10 @@ class Animal
     }
     public int Idade { get { return _idade; } set { _idade = value; } }
 
-    public Animal(string nome, int idade) 
+    public Animal(string nome, int idade)
     {
         _nome = nome;
-        Idade = idade;
+        _idade = idade;
     }
 
     public virtual void EmitirSom()

@@ -2,33 +2,33 @@ class ContaBancaria
 {
     #region Atrib
     private int _numeroConta;
-    private float _salario;
-    private string _cargo;
+  
+    private decimal _saldo;
     #endregion
 
     #region Props
     public int NumeroConta { get { return _numeroConta; } set { _numeroConta = value; } }
-    protected float Salario { get{return _salario;}  } 
-    public string Cargo { get { return _cargo; } set { _cargo = value; } }
+    public string Titular { get; set; }
+    public decimal Salario { get { return _saldo; } private set { _saldo = value; } }
     #endregion
 
-    public ContaBancaria(int numConta, float salario, string cargo)
+    public ContaBancaria(int numConta, decimal salario, string titular)
     {
         NumeroConta = numConta;
-        _salario = salario;
-        Cargo = cargo;
+        Salario = salario;
+        Titular = titular;
     }
 
-    public void Depositar(float valor)
+    public void Depositar(decimal valor)
     {
-        _salario += valor;
+        Salario += valor;
     }
-    public void Sacar(float valor)
+    public void Sacar(decimal valor)
     {
-        _salario -= valor;
+        Salario -= valor;
     }
-    public float VerificarSaldo()
+    public decimal VerificarSaldo()
     {
-        return _salario;
+        return Salario;
     }
 }
