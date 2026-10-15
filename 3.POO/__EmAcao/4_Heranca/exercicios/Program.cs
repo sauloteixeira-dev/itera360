@@ -29,17 +29,12 @@
 
         //--------------------------------------------------------------------------------------------------
 
-        //4 - Conta
-        // var conta = new ContaCorrente(123, 5, 800);
-        // var contaBase = new Conta(321, 800);
+        //  // 4 - Conta
+        // var CC = new ContaCorrente(123, 50, 1);
 
-        // System.Console.WriteLine($"Conta nº: {conta.Numero} - Saldo: {conta.Saldo} ");
-        // conta.Sacar(8);
 
-        // System.Console.WriteLine($"Conta nº: {conta.Numero} - Saldo: {conta.Saldo} ");
-
-        // System.Console.WriteLine($"Conta nº: {contaBase.Numero} - Saldo: {contaBase.Saldo} ");
-        // contaBase.Sacar(400);
+        // System.Console.WriteLine($"Conta nº: {CC.Numero} - Saldo: {CC.Saldo:C} - Limite: {CC.Limite:C}\nSaldo + Limite {CC.Saldo + CC.Limite:C} \n\n");
+        // CC.Sacar(52);
 
         //--------------------------------------------------------------------------------------------------
 

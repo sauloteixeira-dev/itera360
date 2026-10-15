@@ -18,6 +18,6 @@ class Conta
 
     public virtual void Sacar(decimal valor)
     {
-        System.Console.WriteLine($"Seu saldo é: {Saldo}");
+        System.Console.WriteLine($"Seu saldo é: {Saldo:C}");
     }
 }

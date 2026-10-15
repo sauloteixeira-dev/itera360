@@ -1,16 +1,20 @@
-class Retangulo : Forma
+class Circulo : Forma
 {
-    private int _largura { get; set; }
-    private int _altura { get; set; }
+    public decimal _pi = 3.14m;
+    private decimal _raio;
 
-    public Retangulo(string nome, int largura, int altura) : base(nome)
+    public decimal Raio { get { return _raio; } set { _raio = value; } }
+
+
+    public Circulo(string nome, decimal raio) : base(nome)
     {
-        _largura = largura;
-        _altura = altura;
+
+        Raio = raio;
+
     }
 
-    public override void CalcularArea(int largura, int altura) : this(largura, altura)
+    public override void CalcularArea(decimal a, decimal b)
     {
-        
+        Area = _pi * Raio * Raio;
     }
 }
