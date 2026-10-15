@@ -108,34 +108,34 @@ void CadastroAlunos(string nome, double notaUm, double notaDois, double notaTres
         else
         {
             inicio++;
-           
-                for (int i = 0; i < notas.Length; i++)
-                {
-                    alunos[inicio] = nome.ToUpper();
-                    notas[inicio, 1] = notaUm; 
-                    notas[inicio, 2] = notaDois;
-                    notas[inicio, 3] = notaTres;
-                    notas[inicio, 4] = notaQuatro; 
-                }
 
-                media = notaUm + notaDois + notaTres + notaQuatro / 4;
+            for (int i = 0; i < notas.Length; i++)
+            {
+                alunos[inicio] = nome.ToUpper();
+                notas[inicio, 1] = notaUm;
+                notas[inicio, 2] = notaDois;
+                notas[inicio, 3] = notaTres;
+                notas[inicio, 4] = notaQuatro;
+            }
 
-                if (media >= 7)
-                {
-                    Console.WriteLine($"Aluno : {nome} está: Aprovado!");
-                }
-                else if (media >= 5 && media < 7)
-                {
-                    Console.WriteLine($"Aluno : {nome} está: Recuperação!");
-                }
-                else
-                {
-                    Console.WriteLine($"Aluno : {nome} está: Reprovado!");
-                }
+            media = notaUm + notaDois + notaTres + notaQuatro / 4;
+
+            if (media >= 7)
+            {
+                Console.WriteLine($"Aluno : {nome} está: Aprovado!");
+            }
+            else if (media >= 5 && media < 7)
+            {
+                Console.WriteLine($"Aluno : {nome} está: Recuperação!");
+            }
+            else
+            {
+                Console.WriteLine($"Aluno : {nome} está: Reprovado!");
             }
         }
     }
 }
+
 
 
 void mostrarAlunosCadastrados()
