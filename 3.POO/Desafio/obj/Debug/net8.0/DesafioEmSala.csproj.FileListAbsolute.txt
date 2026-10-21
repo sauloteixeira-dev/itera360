@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\bin\Debug\net8.0\DesafioEmSala.exe
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\bin\Debug\net8.0\DesafioEmSala.deps.json
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\bin\Debug\net8.0\DesafioEmSala.runtimeconfig.json
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\bin\Debug\net8.0\DesafioEmSala.dll
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\bin\Debug\net8.0\DesafioEmSala.pdb
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.sourcelink.json
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.dll
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\refint\DesafioEmSala.dll
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.pdb
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\DesafioEmSala.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\3.POO\DesafioEmSala\obj\Debug\net8.0\ref\DesafioEmSala.dll

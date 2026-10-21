@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Alunos\\SauloTeixeira\\4.Desafio\\4.Desafio.csproj": {}
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\DesafioEmSala\\DesafioEmSala.csproj": {}
   },
   "projects": {
-    "C:\\Alunos\\SauloTeixeira\\4.Desafio\\4.Desafio.csproj": {
+    "C:\\Alunos\\SauloTeixeira\\3.POO\\DesafioEmSala\\DesafioEmSala.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\4.Desafio\\4.Desafio.csproj",
-        "projectName": "4.Desafio",
-        "projectPath": "C:\\Alunos\\SauloTeixeira\\4.Desafio\\4.Desafio.csproj",
+        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\3.POO\\DesafioEmSala\\DesafioEmSala.csproj",
+        "projectName": "DesafioEmSala",
+        "projectPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\DesafioEmSala\\DesafioEmSala.csproj",
         "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
-        "outputPath": "C:\\Alunos\\SauloTeixeira\\4.Desafio\\obj\\",
+        "outputPath": "C:\\Alunos\\SauloTeixeira\\3.POO\\DesafioEmSala\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
