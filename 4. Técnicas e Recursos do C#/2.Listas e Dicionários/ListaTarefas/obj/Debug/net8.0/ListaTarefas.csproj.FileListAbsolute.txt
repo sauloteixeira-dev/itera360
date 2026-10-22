@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\bin\Debug\net8.0\ListaTarefas.exe
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\bin\Debug\net8.0\ListaTarefas.deps.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\bin\Debug\net8.0\ListaTarefas.runtimeconfig.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\bin\Debug\net8.0\ListaTarefas.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\bin\Debug\net8.0\ListaTarefas.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.sourcelink.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\refint\ListaTarefas.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ListaTarefas.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\ListaTarefas\obj\Debug\net8.0\ref\ListaTarefas.dll

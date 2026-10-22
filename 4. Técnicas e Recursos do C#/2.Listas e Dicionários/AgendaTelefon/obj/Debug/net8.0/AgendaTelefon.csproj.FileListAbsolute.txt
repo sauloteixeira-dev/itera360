@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.sourcelink.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\bin\Debug\net8.0\AgendaTelefon.exe
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\bin\Debug\net8.0\AgendaTelefon.deps.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\bin\Debug\net8.0\AgendaTelefon.runtimeconfig.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\bin\Debug\net8.0\AgendaTelefon.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\bin\Debug\net8.0\AgendaTelefon.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\refint\AgendaTelefon.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\AgendaTelefon.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\AgendaTelefon\obj\Debug\net8.0\ref\AgendaTelefon.dll
