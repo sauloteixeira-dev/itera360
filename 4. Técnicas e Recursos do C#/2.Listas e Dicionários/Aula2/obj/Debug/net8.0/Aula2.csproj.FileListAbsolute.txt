@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\bin\Debug\net8.0\Aula2.exe
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\bin\Debug\net8.0\Aula2.deps.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\bin\Debug\net8.0\Aula2.runtimeconfig.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\bin\Debug\net8.0\Aula2.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\bin\Debug\net8.0\Aula2.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.sourcelink.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\refint\Aula2.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\Aula2.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\2.Listas e Dicionários\Aula2\obj\Debug\net8.0\ref\Aula2.dll
