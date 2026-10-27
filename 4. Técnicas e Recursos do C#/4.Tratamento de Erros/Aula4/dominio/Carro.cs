@@ -1,0 +1,68 @@
+abstract class Carro
+{
+    //atributos
+    #region Atributos
+    private string _marca;
+    private string _modelo;
+    private string _cor;
+
+    private double _velocidade;
+    private bool _ligado;
+    #endregion
+
+    //Propriedade
+    #region Propriedades
+    public string Marca
+    {
+        get { return _marca; }
+        set { _marca = value; }
+    }
+    public string Modelo
+    {
+        get { return _modelo; }
+        set { _modelo = value; }
+    }
+    public string Cor
+    {
+        get { return _cor; }
+        set { _cor = value; }
+    }
+    public double Velocidade
+    {
+        get { return _velocidade; }
+        set { _velocidade = value; }
+    }
+    public bool Ligado
+    {
+        get { return _ligado; }
+        set { _ligado = value; }
+    }
+    #endregion
+
+    #region Comportamentos
+    public Carro()
+    {
+        _velocidade = 0;
+        Ligado = false;
+    }
+
+    public Carro(string marca, string modelo, string cor)
+    {
+        Marca = marca;
+        Modelo = modelo;
+        Cor = cor;
+        Ligado = false;
+
+        _velocidade = 0;
+    }
+
+    public virtual void Acelerar()
+    {
+        _velocidade += 2;
+    }
+    public virtual void Frear()
+    {
+        _velocidade -= 2;
+    }
+    #endregion
+}

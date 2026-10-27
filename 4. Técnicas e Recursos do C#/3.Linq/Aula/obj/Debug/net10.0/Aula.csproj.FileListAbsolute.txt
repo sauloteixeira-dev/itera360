@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\bin\Debug\net10.0\Aula.exe
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\bin\Debug\net10.0\Aula.deps.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\bin\Debug\net10.0\Aula.runtimeconfig.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\bin\Debug\net10.0\Aula.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\bin\Debug\net10.0\Aula.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.sourcelink.json
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\refint\Aula.dll
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.pdb
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\Aula.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\3.Linq\Aula\obj\Debug\net10.0\ref\Aula.dll
