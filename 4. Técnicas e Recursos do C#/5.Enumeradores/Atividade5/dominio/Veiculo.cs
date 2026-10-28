@@ -1,13 +1,12 @@
 public class Veiculo
 {
-    private string _tipoVeiculo;
+    private TipoVeiculo _tipoVeiculo;
 
-    public string TipoVeiculo
+    public TipoVeiculo TipoVeiculo
     {
         get { return _tipoVeiculo; }
         set { _tipoVeiculo = value; }
     }
-
 
     private string _placa;
     public string Placa
@@ -30,10 +29,7 @@ public class Veiculo
 
     public Tag Id;
 
-    public Veiculo()
-    {
-
-    }
+    public Veiculo() { }
 
     public Veiculo(string placa, string modelo, string marca)
     {
@@ -41,19 +37,20 @@ public class Veiculo
         _modelo = modelo;
         _mcarca = marca;
     }
-    public Veiculo(string placa, string modelo, string marca, string veiculo) : this(placa, modelo, marca)
+
+    public Veiculo(string placa, string modelo, string marca, TipoVeiculo veiculo)
+        : this(placa, modelo, marca)
     {
         _tipoVeiculo = veiculo;
     }
-
 
     public void AssociarTAG(Tag tag)
     {
         Id = tag;
     }
+
     public void AlterarPlaca(string novaPlaca)
     {
         _placa = novaPlaca;
     }
-
 }
