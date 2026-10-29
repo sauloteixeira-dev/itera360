@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\bin\Debug\net10.0\3.EnumStatus.exe
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\bin\Debug\net10.0\3.EnumStatus.deps.json
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\bin\Debug\net10.0\3.EnumStatus.runtimeconfig.json
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\bin\Debug\net10.0\3.EnumStatus.dll
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\bin\Debug\net10.0\3.EnumStatus.pdb
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.sourcelink.json
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.dll
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\refint\3.EnumStatus.dll
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.pdb
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\3.EnumStatus.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\5.Extras\3.EnumStatus\obj\Debug\net10.0\ref\3.EnumStatus.dll

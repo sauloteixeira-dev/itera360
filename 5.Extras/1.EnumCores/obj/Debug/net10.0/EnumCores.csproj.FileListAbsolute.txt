@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.sourcelink.json
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\bin\Debug\net10.0\EnumCores.exe
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\bin\Debug\net10.0\EnumCores.deps.json
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\bin\Debug\net10.0\EnumCores.runtimeconfig.json
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\bin\Debug\net10.0\EnumCores.dll
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\bin\Debug\net10.0\EnumCores.pdb
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.dll
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\refint\EnumCores.dll
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.pdb
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\EnumCores.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\5.Extras\1.EnumCores\obj\Debug\net10.0\ref\EnumCores.dll

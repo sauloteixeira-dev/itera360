@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\bin\Debug\net10.0\2.EnumDiasDaSemana.exe
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\bin\Debug\net10.0\2.EnumDiasDaSemana.deps.json
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\bin\Debug\net10.0\2.EnumDiasDaSemana.runtimeconfig.json
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\bin\Debug\net10.0\2.EnumDiasDaSemana.dll
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\bin\Debug\net10.0\2.EnumDiasDaSemana.pdb
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.sourcelink.json
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.dll
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\refint\2.EnumDiasDaSemana.dll
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.pdb
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\2.EnumDiasDaSemana.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\5.Extras\2.EnumDiasDaSemana\obj\Debug\net10.0\ref\2.EnumDiasDaSemana.dll
