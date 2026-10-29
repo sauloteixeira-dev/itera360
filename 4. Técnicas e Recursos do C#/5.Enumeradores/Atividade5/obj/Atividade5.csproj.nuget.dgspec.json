@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj": {}
+    "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj": {
+    "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj",
+        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj",
         "projectName": "Atividade5",
-        "projectPath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj",
-        "packagesPath": "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\obj\\",
+        "projectPath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\Atividade5.csproj",
+        "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
+        "outputPath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\5.Enumeradores\\Atividade5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saulo.CRAS-CHAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
