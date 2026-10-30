@@ -4,7 +4,6 @@ public class Jogador
     private int _vitorias;
     private int _derrotas;
 
-
     public string Nome
     {
         get { return _nome; }
@@ -21,25 +20,21 @@ public class Jogador
         set { _derrotas = value; }
     }
 
-    public Jogador()
-    {
-
-    }
+    public Jogador() { }
 
     public Jogador(string nome)
     {
-        _nome = nome;
+        _nome = nome.ToUpper();
         _vitorias = 0;
         _derrotas = 0;
     }
-
 
     public void RegistrarVitoria()
     {
         _vitorias += 1;
     }
 
-    public void RegistarDerrota()
+    public void RegistrarDerrota()
     {
         _derrotas += 1;
     }

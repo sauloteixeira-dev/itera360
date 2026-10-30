@@ -1,4 +1,3 @@
-
 public class Partida
 {
     private Jogador _jogador;
@@ -8,33 +7,40 @@ public class Partida
         _jogador = jogador;
     }
 
-    public int JogadaJogador()
+    public Jogada JogadaJogador()
     {
-        int escolhaJogador;
-        bool validador;
+        int escolhaJogador = 0;
+        bool validador = false;
 
         do
         {
-            Console.WriteLine($"Escolha uma opção: ");
+            Console.WriteLine("==============================");
+            Console.WriteLine("          SUA JOGADA          ");
+            Console.WriteLine("==============================");
+
             int i = 1;
 
             foreach (var jogada in Enum.GetValues(typeof(Jogada)))
             {
-                Console.WriteLine($"{i} - {jogada}");
+                Console.WriteLine($"  {i} - {jogada}");
                 i++;
             }
-            escolhaJogador = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("==============================");
+            Console.Write("Escolha uma opção: ");
 
             try
             {
-                if (Enum.IsDefined(typeof(Jogada), escolhaJogador))
+                if (
+                    int.TryParse(Console.ReadLine(), out escolhaJogador)
+                    && Enum.IsDefined(typeof(Jogada), escolhaJogador)
+                )
                 {
                     validador = true;
-
                 }
                 else
                 {
-                    Console.WriteLine("Erro: Valor não existe! Digite 1, 2, 3 ou 4");
+                    Console.WriteLine("Erro: Valor não existe! Digite 1, 2 ou 3\n\n");
                 }
                 switch ((Jogada)escolhaJogador)
                 {
@@ -55,11 +61,11 @@ public class Partida
             {
                 Console.WriteLine($"Erro: {ex.Message}");
             }
-            return escolhaJogador;
         } while (validador == false);
+        return (Jogada)escolhaJogador;
     }
 
-    public int JogadaComputador()
+    public Jogada JogadaComputador()
     {
         int escolhaComputador;
 
@@ -78,18 +84,18 @@ public class Partida
                 Console.WriteLine($"Escolhido pelo Computador: {Jogada.Tesousa}");
                 break;
         }
-        return escolhaComputador;
+        return (Jogada)escolhaComputador;
     }
 
+    public void AtualizarPlacar(string resultado)
+    {
+        if (resultado == Utilitario.Vitoria)
+        {
+            _jogador.RegistrarVitoria();
+        }
+        else if (resultado == Utilitario.Derrota)
+        {
+            _jogador.RegistrarDerrota();
+        }
+    }
 }
-
-
-
-//1 perde 3
-//3 ganha 2
-//2 perde 1
-
-
-
-
-
