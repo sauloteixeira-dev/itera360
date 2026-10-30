@@ -8,12 +8,65 @@ static class Utilitario
 
     public static int RegistroDerrota { get { return registroDerrota; } }
 
-    // static string CalcularResultado(Jogada jogador, Jogada computador)
-    // {
+    static public string CalcularResultado(Jogada jogador, Jogada computador)
+    {
+        if (jogador == Jogada.Pedra)
+        {
+            if (jogador == Jogada.Pedra && computador == Jogada.Tesousa)
+            {
+                return "Jogador Ganhou";
+                // RegistrarVitoria();
+            }
+            else if (jogador == Jogada.Pedra && computador == Jogada.Pedra)
+            {
+                return "Empate";
+            }
+            else if (jogador == Jogada.Pedra && computador == Jogada.Papel)
+            {
+                return "Computador ganhou";
+                // RegistarDerrota();
+            }
+        }
+        else if (jogador == Jogada.Papel)
+        {
+            if (jogador == Jogada.Papel && computador == Jogada.Pedra)
+            {
+                return "Jogador Ganhou";
+                // RegistrarVitoria();
+            }
+            else if (jogador == Jogada.Papel && computador == Jogada.Papel)
+            {
+                return "Empate";
+            }
+            else if (jogador == Jogada.Papel && computador == Jogada.Tesousa)
+            {
+                return "Computador ganhou";
+                // RegistarDerrota();
+            }
+            else if (jogador == Jogada.Tesousa)
+            {
+                if (jogador == Jogada.Tesousa && computador == Jogada.Pedra)
+                {
 
+                    return "Computador ganhou";
+                    // RegistrarVitoria();
+                }
+                else if (jogador == Jogada.Tesousa && computador == Jogada.Papel)
+                {
+                    return "Jogador Ganhou";
+                }
+                else if (jogador == Jogada.Tesousa && computador == Jogada.Tesousa)
+                {
 
+                    return "Empate";
+                    // RegistarDerrota();
+                }
+            }
 
-    // }
+        }
+        return;
+
+    }
 
     static Utilitario()
     {
