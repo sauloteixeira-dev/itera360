@@ -29,12 +29,8 @@ public class Program
             switch (opcao)
             {
                 case 1:
-                NovaPartida.JogadaJogador();
-                NovaPartida.JogadaComputador();
-                
-
-
-
+                    NovaPartida.JogadaJogador();
+                    NovaPartida.JogadaComputador();
                     break;
                 case 2:
                     //aqui entra ranking
