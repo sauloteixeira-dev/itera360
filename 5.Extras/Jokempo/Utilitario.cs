@@ -8,22 +8,29 @@ static class Utilitario
 
     public static int RegistroDerrota { get { return registroDerrota; } }
 
-    static public string CalcularResultado(Jogada jogador, Jogada computador)
+//void ou string ou o que??????????
+    static public void CalcularResultado(Jogada jogador, Jogada computador)
     {
+        string empate = "Empate";
+        string derrota = "Derrota";
+        string vitoria = "Vitória";
+
+
         if (jogador == Jogada.Pedra)
         {
             if (jogador == Jogada.Pedra && computador == Jogada.Tesousa)
             {
-                return "Jogador Ganhou";
+
+                return vitoria;
                 // RegistrarVitoria();
             }
             else if (jogador == Jogada.Pedra && computador == Jogada.Pedra)
             {
-                return "Empate";
+                return empate;
             }
             else if (jogador == Jogada.Pedra && computador == Jogada.Papel)
             {
-                return "Computador ganhou";
+                return derrota;
                 // RegistarDerrota();
             }
         }
@@ -31,53 +38,50 @@ static class Utilitario
         {
             if (jogador == Jogada.Papel && computador == Jogada.Pedra)
             {
-                return "Jogador Ganhou";
+                return vitoria;
                 // RegistrarVitoria();
             }
             else if (jogador == Jogada.Papel && computador == Jogada.Papel)
             {
-                return "Empate";
+                return empate;
             }
             else if (jogador == Jogada.Papel && computador == Jogada.Tesousa)
             {
-                return "Computador ganhou";
+                return derrota;
                 // RegistarDerrota();
             }
-            else if (jogador == Jogada.Tesousa)
+        }
+        else
+        {
+            if (jogador == Jogada.Tesousa)
             {
                 if (jogador == Jogada.Tesousa && computador == Jogada.Pedra)
                 {
 
-                    return "Computador ganhou";
+                    return derrota;
                     // RegistrarVitoria();
                 }
                 else if (jogador == Jogada.Tesousa && computador == Jogada.Papel)
                 {
-                    return "Jogador Ganhou";
+                    return vitoria;
                 }
                 else if (jogador == Jogada.Tesousa && computador == Jogada.Tesousa)
                 {
 
-                    return "Empate";
+                    return empate;
                     // RegistarDerrota();
                 }
             }
-
         }
-        return;
-
     }
-
-    static Utilitario()
-    {
-        registroVitoria = 0;
-        registroDerrota = 0;
-    }
-
-    //preciso fazer o if else para decidir qm ganhou no jogo...
-
-
+    return;
 }
+
+// static Utilitario()
+// {
+//     registroVitoria = 0;
+//     registroDerrota = 0;
+// }
 
 
 
