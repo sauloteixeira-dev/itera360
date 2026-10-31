@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj": {}
+    "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj": {
+    "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
+        "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
         "projectName": "Jokempo",
-        "projectPath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
-        "packagesPath": "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\obj\\",
+        "projectPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+        "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
+        "outputPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saulo.CRAS-CHAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

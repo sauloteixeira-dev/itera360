@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\bin\Debug\net10.0\RevisaoAula1_Extras.exe
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\bin\Debug\net10.0\RevisaoAula1_Extras.deps.json
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\bin\Debug\net10.0\RevisaoAula1_Extras.runtimeconfig.json
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\bin\Debug\net10.0\RevisaoAula1_Extras.dll
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\bin\Debug\net10.0\RevisaoAula1_Extras.pdb
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.sourcelink.json
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.dll
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\refint\RevisaoAula1_Extras.dll
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.pdb
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\RevisaoAula1_Extras.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\6.Revisao\RevisaoAula1_Extras\obj\Debug\net10.0\ref\RevisaoAula1_Extras.dll
