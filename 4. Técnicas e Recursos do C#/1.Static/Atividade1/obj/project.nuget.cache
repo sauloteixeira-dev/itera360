@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Lx4Vz6o5By8=",
+  "dgSpecHash": "7+W+h7JjLAw=",
   "success": true,
   "projectFilePath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\1.Static\\Atividade1\\DesafioEmSala.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Noite\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.32\\microsoft.netcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Noite\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.32\\microsoft.windowsdesktop.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Noite\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.32\\microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Noite\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.32\\microsoft.netcore.app.host.win-x64.8.0.32.nupkg.sha512"
+  ],
   "logs": []
 }

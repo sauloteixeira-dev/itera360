@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         int opcaoInvalida = -1;
-        int opcao = opcaoInvalida;
+        int opcao;
         var ranking = new Ranking();
         string nomeJogador,
             resultado,
