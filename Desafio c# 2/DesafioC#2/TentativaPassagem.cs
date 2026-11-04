@@ -1,9 +1,9 @@
 public class TentativaPassagem : Passagem
 {
-    public Passagem passagem;
-    public void NaoPassouFalha(Veiculo veiculo)
+    public string Motivo { get; set; }
+    public TentativaPassagem(Veiculo automovel, decimal valorPedagio, string motivo) : base(automovel, valorPedagio)
     {
-        Passagem.TentativaPassagem++;
-        Console.WriteLine($"Veiculo: {veiculo.Id} | Hora: {DateTime.Now} | Valor: {ValorPedagio}\nMotivo: Saldo Insuficiente");
+        Motivo = motivo;
     }
+
 }

@@ -1,13 +1,29 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "7+W+h7JjLAw=",
   "success": true,
   "projectFilePath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\1.Static\\Atividade1\\DesafioEmSala.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "Lx4Vz6o5By8=",
+  "success": true,
+  "projectFilePath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\1.Static\\Atividade1\\DesafioEmSala.csproj",
+  "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "7+W+h7JjLAw=",
+  "success": true,
+  "projectFilePath": "C:\\Alunos\\SauloTeixeira\\4. Técnicas e Recursos do C#\\1.Static\\Atividade1\\DesafioEmSala.csproj",
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
   "expectedPackageFiles": [
     "C:\\Users\\Noite\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.32\\microsoft.netcore.app.ref.8.0.32.nupkg.sha512",
     "C:\\Users\\Noite\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.32\\microsoft.windowsdesktop.app.ref.8.0.32.nupkg.sha512",
     "C:\\Users\\Noite\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.32\\microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512",
     "C:\\Users\\Noite\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.32\\microsoft.netcore.app.host.win-x64.8.0.32.nupkg.sha512"
   ],
+<<<<<<< HEAD
+=======
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
   "logs": []
 }

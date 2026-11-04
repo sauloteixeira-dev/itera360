@@ -8,11 +8,37 @@
     "net10.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Noite\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Noite\\.nuget\\packages\\": {}
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
+      "projectName": "Jokempo",
+      "projectPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+      "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
+      "outputPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "C:\\Users\\saulo.CRAS-CHAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
       "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
       "projectName": "Jokempo",
       "projectPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
@@ -22,12 +48,21 @@
       "configFilePaths": [
         "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+=======
+<<<<<<< HEAD
+=======
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +104,15 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+=======
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

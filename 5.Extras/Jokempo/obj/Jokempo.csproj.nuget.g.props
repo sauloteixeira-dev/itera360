@@ -5,11 +5,27 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Noite\.nuget\packages\</NuGetPackageFolders>
+=======
+<<<<<<< HEAD
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\saulo.CRAS-CHAIN\.nuget\packages\</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Noite\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <SourceRoot Include="C:\Users\Noite\.nuget\packages\" />
+=======
+<<<<<<< HEAD
+    <SourceRoot Include="C:\Users\saulo.CRAS-CHAIN\.nuget\packages\" />
+=======
+    <SourceRoot Include="C:\Users\Noite\.nuget\packages\" />
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
   </ItemGroup>
 </Project>

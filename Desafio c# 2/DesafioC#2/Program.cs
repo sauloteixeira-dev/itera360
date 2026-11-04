@@ -1,4 +1,7 @@
-﻿internal class Program
+﻿using System.Data;
+using Microsoft.VisualBasic;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -12,10 +15,9 @@
         decimal novoSaldo,
             saldoObtido;
         decimal valorPedagio;
-        Veiculo nomeVeiculo = null;
+        Veiculo nomeVeiculo;
         Pedagio ped = new Pedagio();
-        List<TentativaPassagem> TentativaFalha = new List<TentativaPassagem>();
-        List<Passagem> PassouComSucesso = new List<Passagem>();
+
         try
         {
             Console.WriteLine("Bem vindo ao Sistema de Tags de Veículos!");
@@ -27,7 +29,7 @@
 
                 if (string.IsNullOrEmpty(identificacao))
                 {
-                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!");
+                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!".ToUpper());
                 }
             } while (string.IsNullOrEmpty(identificacao));
 
@@ -38,7 +40,7 @@
 
                 if (string.IsNullOrEmpty(placa))
                 {
-                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!");
+                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!".ToUpper());
                 }
             } while (string.IsNullOrEmpty(placa));
 
@@ -49,7 +51,7 @@
 
                 if (string.IsNullOrEmpty(modelo))
                 {
-                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!");
+                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!".ToUpper());
                 }
             } while (string.IsNullOrEmpty(modelo));
 
@@ -60,7 +62,7 @@
 
                 if (string.IsNullOrEmpty(marca))
                 {
-                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!");
+                    Console.WriteLine("Erro: Campo não pode ser nulo ou vazio!".ToUpper());
                 }
             } while (string.IsNullOrEmpty(marca));
 
@@ -79,7 +81,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("Erro: Valor não existe! Digite 1, 2 ou 3.\n");
+                    Console.WriteLine("Erro: Valor não existe! Digite 1, 2 ou 3.\n".ToUpper());
                 }
             } while (tipoValido == false);
 
@@ -108,42 +110,29 @@
                 Console.WriteLine("\n3 - Alterar Placa");
                 Console.WriteLine("\n4 - Passar No Pedágio");
                 Console.WriteLine("\n5 - Informações do Veículo");
-                Console.WriteLine("\ns - Sair");
+                Console.WriteLine("\n6 - Relatorios");
+                Console.WriteLine("\nS - Sair");
                 opcao = Console.ReadLine().ToLower();
 
                 switch (opcao)
                 {
                     case "1":
                         Console.WriteLine("\nInforme o Valor para carregar o saldo: ");
-                        try
-                        {
-                            novoSaldo = decimal.Parse(Console.ReadLine());
 
-                            if (novoSaldo <= 0)
-                            {
-                                throw new ArgumentException(
-                                    "Valor menor ou igual a zero Tente Novamente! \n\n"
-                                );
-                            }
+                        novoSaldo = decimal.Parse(Console.ReadLine());
 
-                            nomeVeiculo.Id.RecarregarTag(novoSaldo);
-                        }
-                        catch (ArgumentException ex)
+                        if (novoSaldo <= 0)
                         {
-                            Console.WriteLine($"Erro: {ex.Message}");
-                        }
-                        catch (FormatException)
-                        {
-                            Console.WriteLine(
-                                "Erro: Você digitou um texto. Insira apenas números maiores que 0."
+                            throw new ArgumentException(
+                                "Valor menor ou igual a zero Tente Novamente! \n\n"
                             );
                         }
-                        finally
-                        {
-                            Console.WriteLine(
-                                $"\nSeu saldo é: {nomeVeiculo.Id.ObterSaldo():C}\n\n"
-                            );
-                        }
+                        nomeVeiculo.Id.RecarregarTag(novoSaldo);
+
+                        Console.WriteLine(
+                            $"\nSeu saldo é: {nomeVeiculo.Id.ObterSaldo():C}\n\n"
+                        );
+
                         break;
                     case "2":
                         saldoObtido = nomeVeiculo.Id.ObterSaldo();
@@ -158,34 +147,19 @@
                     case "4":
                         try
                         {
-                            if (nomeVeiculo.TipoVeiculo == TipoVeiculo.Moto)
-                            {
-                                valorPedagio = 1.50m;
-                            }
-                            else if (nomeVeiculo.TipoVeiculo == TipoVeiculo.Carro)
-                            {
-                                valorPedagio = 2.90m;
-                            }
-                            else
-                            {
-                                valorPedagio = 18.90m;
-                            }
+                            valorPedagio = ped.ObterValor(nomeVeiculo.TipoVeiculo);
 
-                            var passou = new Passagem();
-                            passou.PassouSucesso(nomeVeiculo);
-                            PassouComSucesso.Add();
 
                             if (nomeVeiculo.Id.ObterSaldo() < valorPedagio)
                             {
-                                var naoPassou = new TentativaPassagem();
-                                naoPassou.NaoPassouFalha(nomeVeiculo);
-                                TentativaFalha.Add(naoPassou);
+                                Pedagio.TentativaPassagem.Add(new TentativaPassagem(nomeVeiculo, valorPedagio, "Saldo Insuficiente!"));
                                 throw new Exception($"Saldo Insuficiente, Recarregue! Saldo:{nomeVeiculo.Id.ObterSaldo():C}");
                             }
 
                             if (ped.VerificarCancela() == true && ped.PassarPedagio() == true)
                             {
                                 nomeVeiculo.Id.DescontarSaldo(valorPedagio);
+                                Pedagio.Passagem.Add(new Passagem(nomeVeiculo, valorPedagio));
                                 Console.WriteLine(
                                     $"\nPedágio pago: {valorPedagio:C}\nSaldo atual: {nomeVeiculo.Id.ObterSaldo():C}\n"
                                 );
@@ -201,11 +175,14 @@
                             $"Veículo:\n\nMarca: {nomeVeiculo.Marca}\nModelo: {nomeVeiculo.Modelo}\nPlaca: {nomeVeiculo.Placa}\nTipo: {nomeVeiculo.TipoVeiculo}\n\n"
                         );
                         break;
+                    case "6":
+                        Relatorio.Menu();
+                        break;
                     case "s":
-                        opcao = "s";
+                        Console.WriteLine("Saindo...");
                         break;
                     default:
-                        Console.WriteLine("\n\nOpção inválida! Tente novamente\n\n");
+                        Console.WriteLine("\n\nOpção inválida! Tente novamente\n\n".ToUpper());
                         break;
                 }
             }

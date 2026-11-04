@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "qI0HBaHYjJw=",
   "success": true,
   "projectFilePath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "3wgFpYD+jqg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
+=======
+  "dgSpecHash": "qI0HBaHYjJw=",
+  "success": true,
+  "projectFilePath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
   "expectedPackageFiles": [],
   "logs": []
 }

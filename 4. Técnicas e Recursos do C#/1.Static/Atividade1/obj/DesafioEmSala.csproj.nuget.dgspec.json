@@ -26,7 +26,14 @@
         },
         "frameworks": {
           "net8.0": {
+<<<<<<< HEAD
             "framework": "net8.0",
+=======
+<<<<<<< HEAD
+=======
+            "framework": "net8.0",
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -40,12 +47,28 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+<<<<<<< HEAD
         },
         "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
           "framework": "net8.0",
+=======
+<<<<<<< HEAD
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+=======
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -58,6 +81,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
@@ -76,12 +104,24 @@
               "version": "[8.0.32, 8.0.32]"
             }
           ],
+<<<<<<< HEAD
+=======
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
+=======
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.307/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
+>>>>>>> 9eaa193b8f365ae10ff0742565591e474fd1d2c7
         }
       }
     }
