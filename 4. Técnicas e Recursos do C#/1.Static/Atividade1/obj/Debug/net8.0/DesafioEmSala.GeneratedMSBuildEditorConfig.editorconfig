@@ -1,13 +1,27 @@
 is_global = true
 build_property.TargetFramework = net8.0
+<<<<<<< HEAD
+=======
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+<<<<<<< HEAD
+=======
+build_property.EntryPointFilePath = 
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DesafioEmSala
 build_property.ProjectDir = C:\Alunos\SauloTeixeira\4. Técnicas e Recursos do C#\1.Static\Atividade1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+<<<<<<< HEAD
+=======
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a

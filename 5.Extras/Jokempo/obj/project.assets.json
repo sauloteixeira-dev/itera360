@@ -8,11 +8,16 @@
     "net10.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\saulo.CRAS-CHAIN\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Noite\\.nuget\\packages\\": {}
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
       "projectName": "Jokempo",
       "projectPath": "C:\\Users\\saulo.CRAS-CHAIN\\Desktop\\itera\\itera360\\5.Extras\\Jokempo\\Jokempo.csproj",
@@ -21,11 +26,26 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\saulo.CRAS-CHAIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+      "projectName": "Jokempo",
+      "projectPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\Jokempo.csproj",
+      "packagesPath": "C:\\Users\\Noite\\.nuget\\packages\\",
+      "outputPath": "C:\\Alunos\\SauloTeixeira\\5.Extras\\Jokempo\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+<<<<<<< HEAD
+=======
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +87,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+>>>>>>> f367a3116aaef36d04ba09e6ec1f186993a62e1a
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
