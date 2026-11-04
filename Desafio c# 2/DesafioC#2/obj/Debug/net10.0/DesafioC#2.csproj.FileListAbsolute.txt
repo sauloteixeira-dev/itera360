@@ -1,0 +1,15 @@
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\bin\Debug\net10.0\DesafioC#2.exe
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\bin\Debug\net10.0\DesafioC#2.deps.json
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\bin\Debug\net10.0\DesafioC#2.runtimeconfig.json
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\bin\Debug\net10.0\DesafioC#2.dll
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\bin\Debug\net10.0\DesafioC#2.pdb
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.AssemblyInfoInputs.cache
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.AssemblyInfo.cs
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.csproj.CoreCompileInputs.cache
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.sourcelink.json
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.dll
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\refint\DesafioC#2.dll
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.pdb
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\DesafioC#2.genruntimeconfig.cache
+C:\Alunos\SauloTeixeira\Desafio c# 2\DesafioC#2\obj\Debug\net10.0\ref\DesafioC#2.dll
