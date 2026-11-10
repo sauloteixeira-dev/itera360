@@ -1,0 +1,14 @@
+							LIVROS
+
+ ID		|TITULO LIVRO		| AUTOR		|ISBN		| PRECO		| QTD	    
+ 1		 LIVRO QUALQUER		 LALA			?	 29,90		 50	    
+ 2		 OUTRO LIVRO		 JOAO			?	 25,00 		 55	    
+___________________________________________________________________________________________________
+					
+___________________________________________________________________________________________________
+						CLIENTES
+
+ID		| NOME CLIENTE		|ENDERECO 	| TELEFONE 	|E-MAIL
+1		 JOAO DA SILVA		 RUA X		 35 999999	 TESTE@GMAIL.COM
+2		 PEDRO JOSE		 RUA Y		 11 98654	 OUTROEMAIL@SEUEMAIL.COM.BR
+3		...			...		...		 LORENIPSULUM@LOREN.COM

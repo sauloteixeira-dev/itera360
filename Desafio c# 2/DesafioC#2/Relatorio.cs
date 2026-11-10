@@ -24,9 +24,8 @@ public static class Relatorio
                 default: Console.WriteLine("\nOpção inválida!\n.ToUpper()"); break;
             }
         } while (opcao != "0");
-
-
     }
+
     private static void VisualizarPassagens()
     {
         var listaOrdenada = Pedagio.Passagem.OrderByDescending(passou => passou.dataHora);
@@ -41,7 +40,7 @@ public static class Relatorio
         }
         Console.WriteLine($"\nTotal Arrecadado: {Pedagio.Passagem.Sum(p => p.ValorPedagio):C}");
     }
-
+    
     private static void VisualizarTentativas()
     {
         Console.WriteLine("\nDigite a placa para filtrar por placa (Enter para ver todas):\n");
