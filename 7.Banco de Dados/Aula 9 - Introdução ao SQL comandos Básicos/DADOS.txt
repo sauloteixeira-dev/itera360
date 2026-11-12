@@ -1,0 +1,132 @@
+1-Usando ORDER BY e WHERE
+SELECT * FROM Produtos WHERE Preco > 100.00;
+selecione todos os dados da tabela Produtos ONDE Preco >100;
+
+SELECT * FROM Clientes ORDER BY Nome ASC;
+selecione todos os dados da tabela Cliente ORDENANDO POR tabela NOME ASCendente;
+
+
+SELECT * FROM Produtos WHERE Nome LIKE 'C%';
+selecione todos databela PRODUTOS onde NOME é iniciado C;
+
+INSERT INTO Produtos (CategoriaID,Nome,Descricao,Preco) VALUES (7,'C_Teste','teste',500.00);
+insira natabela Produtos (categoria....) os valores (....);
+
+UPDATE Clientes SET Celular = '353535', Email = '2k26aa@gmail.com' WhHERE ClienteID = 3;
+Atualize Clientes ONDE Celular = ..., Email = ... NO CLIENTE linha 3;
+Obs: Se não colocar o onde(WHERE) ... o sistema atualiza todos para os dados enviados
+
+
+DELETE FROM Clientes WHERE ClienteID=8;
+Delete da tabela Clientes ONDE o ID=8;
+Obs: Se não colocar o onde(WHERE) ... o sistema atualiza todos para os dados enviados
+--------------------------------------------------------------------------------------------
+2- Usando JOINs (combinar dados)
+
+Usando JOINs para combinar dados
+O objetivo deste exercício é praticar o uso de JOINs para combinar dados de duas ou mais tabelas.
+1. Crie uma consulta SQL que use um JOIN para responder a cada uma das seguintes perguntas:
+
+Quais são os clientes que compraram o produto mais caro?
+SELECT TOP 3
+    Clientes.Nome AS Cliente,
+    Produtos.Nome AS Produto,
+    Produtos.Preco AS Valor
+FROM Clientes
+INNER JOIN Pedidos
+    ON Clientes.ClienteID = Pedidos.ClienteID
+INNER JOIN Produtos
+    ON Pedidos.ProdutoID = Produtos.ProdutoID
+ORDER BY Produtos.Preco DESC;
+----------------------------------------------------------
+
+Quais são os produtos mais vendidos por cada cliente?
+SELECT
+    Clientes.ClienteID,
+    Clientes.Nome AS Cliente,
+    Produtos.ProdutoID,
+    Produtos.Nome AS Produto,
+    COUNT(*) AS QuantidadeComprada
+FROM Clientes
+INNER JOIN Pedidos
+    ON Clientes.ClienteID = Pedidos.ClienteID
+INNER JOIN Produtos
+    ON Pedidos.ProdutoID = Produtos.ProdutoID
+GROUP BY
+    Clientes.ClienteID,
+    Clientes.Nome,
+    Produtos.ProdutoID,
+    Produtos.Nome
+ORDER BY
+    Clientes.Nome,
+    QuantidadeComprada DESC;
+-------------------------------------------------------
+Quais são as categorias com mais pedidos?
+SELECT  
+    Categorias.CategoriasID, 
+    Categorias.Nome AS Categoria,
+    COUNT(*) AS QuantidadeComprada
+FROM Clientes
+INNER JOIN Pedidos
+    ON Clientes.ClienteID = Pedidos.ClienteID
+INNER JOIN Produtos
+    ON Pedidos.ProdutoID = Produtos.ProdutoID
+INNER JOIN Categorias
+    ON Produtos.CategoriaID = Categorias.CategoriasID
+GROUP BY
+    Categorias.CategoriasID,
+    Categorias.Nome
+ORDER BY
+    QuantidadeComprada DESC;
+--------------------------------------------------------------
+
+Aqui estão algumas outras perguntas que você pode usar para praticar:
+
+Quais são os clientes que compraram mais produtos de uma determinada categoria?
+
+
+
+
+
+
+
+
+Quais são as categorias com mais pedidos de um determinado cliente?
+Quais são os produtos que foram vendidos para mais clientes?
+
+SELECT
+
+Escolhe as colunas
+
+FROM
+
+Define a tabela principal
+
+INNER JOIN
+
+Junta tabelas relacionadas
+
+ON
+
+Define a condição de relacionamento
+
+COUNT(*)
+
+Conta os registros
+
+GROUP BY
+
+Agrupa os registros
+
+ORDER BY
+
+Ordena os resultados
+
+DESC
+
+Ordem decrescente
+
+primeiro você junta as tabelas (JOIN),
+depois agrupa (GROUP BY),
+conta (COUNT)
+organiza (ORDER BY)
