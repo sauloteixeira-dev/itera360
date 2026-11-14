@@ -1,61 +1,77 @@
---Aula 12
---INNER JOIN
---TRÁS OS REGISTROS QUANDO EXISTEM NAS DUAS TABELAS
+-- ordenando pelo nome
+SELECT * FROM Clientes ORDER BY Nome ASC;
+
+-- ordenando os pedidos maiores que
+SELECT * FROM Pedidos WHERE ValorTotal > 10000 ORDER BY ValorTotal DESC;
+
+--ordenando os produtos onde começam com C
+SELECT * FROM Produtos WHERE Nome LIKE 'C%';
+
+--Produtos com menor valor
+SELECT * FROM Produtos WHERE Preco < 1000 ORDER BY Preco ASC;
+
+--clientes com mais pedidos ??
+
+
+--Pedidos com data de criação mais recente
+SELECT * FROM Pedidos ORDER BY Data DESC;
+
+-- 2 USANDO JOINS
+--SELECT * FROM tabela1 INNER JOIN tabela2
+--ON tabela1.coluna = tabela2.coluna;
+
+--Quais são os clientes que compraram o produto mais caro?
+SELECT * FROM Clientes
+INNER JOIN Pedidos ON Clientes.ClienteID = Pedidos.ClienteID
+INNER JOIN Produtos ON Pedidos.ProdutoID = Produtos.ProdutoID 
+WHERE Produtos.Preco = (SELECT MAX(Preco) FROM Produtos);
+
+--Quais são os produtos mais vendidos por cada cliente?
 SELECT 
-	Clientes.Nome, 
-	Enderecos.Logradouro, 
-	Enderecos.Cidade 
-FROM
-	Clientes 
-INNER JOIN 
-	Enderecos 
-ON 
-Clientes.ClienteID = Enderecos.ClienteID
-WHERE
-	Enderecos.Cidade = 'Alfenas';
+    Clientes.Nome AS Cliente, 
+    Produtos.Nome AS Produto, 
+    COUNT(Pedidos.PedidosID) AS Total_Compras
+FROM Clientes
+INNER JOIN Pedidos ON Clientes.ClienteID = Pedidos.ClienteID
+INNER JOIN Produtos ON Pedidos.ProdutoID = Produtos.ProdutoID
+GROUP BY Clientes.Nome, Produtos.Nome
+ORDER BY Clientes.Nome, Total_Compras DESC;
 
---LEFT JOIN 
---SEMPRE A TABELA QUE TEM A --CHAVE PRIMÁRIA-- É A TABELA DA --ESQUERDA--
--- EXEMPLO: CLIENTES E ENDEREÇOS 
---A TABELA DA ESQUERDA SEMPRE VAI SER A TABELA CLIENTES!!
+--Quais são as categorias com mais pedidos?
 SELECT 
-	Clientes.Nome, 
-	Enderecos.Logradouro, 
-	Enderecos.Cidade 
-FROM
-	Clientes 
-LEFT JOIN
-	Enderecos 
-ON 
-Clientes.ClienteID = Enderecos.ClienteID
---TRÁS TODOS OS DADOS DA TABELA PAI(clientes) MESMO QUE NÃO TENHAM RELAÇÃO COM A TABELA FILHA (enderecos)
+    Categorias.Nome AS Categoria, 
+    COUNT(Pedidos.PedidosID) AS Total_Pedidos
+FROM Pedidos
+INNER JOIN Produtos ON Pedidos.ProdutoID = Produtos.ProdutoID
+INNER JOIN Categorias ON Produtos.CategoriaID = Categorias.CategoriasID
+GROUP BY Categorias.Nome
+ORDER BY Total_Pedidos DESC;
 
 
+--3 Usando GROUP BY
 
---RIGHT JOIN 
---FAZ O OPOSTO DO LEFT
+--Quantas categorias existem?
+SELECT COUNT(*) AS Total_Categorias
+FROM Categorias;
+
+--Quais são as categorias com mais produtos?
 SELECT 
-	Clientes.Nome, 
-	Enderecos.Logradouro, 
-	Enderecos.Cidade 
-FROM
-	Clientes 
-RIGHT JOIN
-	Enderecos 
-ON 
-Clientes.ClienteID = Enderecos.ClienteID
---TRÁS TODOS OS DADOS DA TABELA FILHA(ENDERECOS) MESMO QUE NÃO TENHAM RELAÇÃO COM A TABELA PAI(CLIENTES)
+    Categorias.Nome AS Categoria, 
+    COUNT(Produtos.ProdutoID) AS Total_Produtos
+FROM Categorias
+INNER JOIN Produtos ON Categorias.CategoriasID = Produtos.CategoriaID
+GROUP BY Categorias.Nome
+ORDER BY Total_Produtos DESC;
 
-
---FULL OUTER JOIN
+--Quais são as categorias com menor valor médio de produtos?
 SELECT 
-	Clientes.Nome, 
-	Enderecos.Logradouro, 
-	Enderecos.Cidade 
-FROM
-	Clientes 
-FULL OUTER JOIN
-	Enderecos 
-ON 
-Clientes.ClienteID = Enderecos.ClienteID
---O INVERSO DE INNER JOIN ... APRESENTA TODOS OS DADOS ...OS QUE TEM RELAÇÃO E OS QUE NÃO TEM RELAÇÃO
+    Categorias.Nome AS Categoria, 
+    AVG(Produtos.Preco) AS Media_Preco
+FROM Categorias
+INNER JOIN Produtos ON Categorias.CategoriasID = Produtos.CategoriaID
+GROUP BY Categorias.Nome
+ORDER BY Media_Preco ASC;
+
+
+
+

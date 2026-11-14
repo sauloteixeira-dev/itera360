@@ -1,0 +1,52 @@
+-- ALUNOS
+INSERT INTO Alunos (NomeAluno, Cidade, Estado, Idade, DataNascimento) VALUES
+('Lucas Silva', 'São Paulo', 'SP', 20, '2004-03-15'),
+('Mariana Costa', 'Alfenas', 'MG', 17, '2007-06-20'),
+('Pedro Souza', 'São Paulo', 'SP', 22, '2002-11-05'),
+('Ana Oliveira', 'Belo Horizonte', 'MG', 16, '2008-01-10'),
+('Carlos Lima', 'Campinas', 'SP', 19, '2005-09-30'),
+('Julia Ferreira', 'Alfenas', 'MG', 15, '2009-04-12'),
+('Rafael Santos', 'Rio de Janeiro', 'RJ', 21, '2003-07-25'),
+('Beatriz Almeida', 'São Paulo', 'SP', 18, '2006-12-01'),
+('Gustavo Pereira', 'Curitiba', 'PR', 23, '2001-02-18'),
+('Larissa Rocha', 'Belo Horizonte', 'MG', 14, '2010-08-22');
+
+-- PROFESSORES
+INSERT INTO Professores (NomeProfessor, IdadeProfessor, SalarioProfessor) VALUES
+('João Mendes', 45, 6500.00),
+('Fernanda Dias', 38, 4800.00),
+('Ricardo Alves', 50, 7200.00);
+
+-- CURSOS (usa os ProfessorId gerados acima: 1, 2 e 3)
+INSERT INTO Cursos (NomeCurso, CargaHoraria, IdProfessor) VALUES
+('Banco de Dados', 60, 1),
+('Programação C#', 80, 2),
+('Redes de Computadores', 40, 3),
+('Engenharia de Software', 100, 1),
+('Front-end Web', 30, 2);
+
+-- MATRICULAS (usa os AlunoId 1-10 e CursoId 1-5 gerados acima)
+INSERT INTO Matriculas (IdAluno, IdCurso, DataMatricula) VALUES
+(1, 1, '2023-02-01'),
+(2, 2, '2023-02-01'),
+(3, 1, '2023-02-05'),
+(4, 3, '2023-02-10'),
+(5, 4, '2023-02-15'),
+(6, 2, '2023-02-20'),
+(7, 5, '2023-03-01'),
+(8, 1, '2023-03-05'),
+(9, 4, '2023-03-10'),
+(10, 3, '2023-03-15');
+
+-- NOTAS
+INSERT INTO Notas (IdAluno, IdCurso, Nota, DataLancamento) VALUES
+(1, 1, 8.5, '2023-06-10'),
+(2, 2, 7.0, '2023-06-10'),
+(3, 1, 9.2, '2023-06-11'),
+(4, 3, 6.5, '2023-06-11'),
+(5, 4, 8.0, '2023-06-12'),
+(6, 2, 7.8, '2023-06-12'),
+(7, 5, 9.5, '2023-06-13'),
+(8, 1, 6.0, '2023-06-13'),
+(9, 4, 8.9, '2023-06-14'),
+(10, 3, 7.3, '2023-06-14');
