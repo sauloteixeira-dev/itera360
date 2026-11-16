@@ -1,0 +1,51 @@
+Modelagem de Banco de Dados para Operadora de Telefonia
+Este exercício tem como objetivo desenvolver um banco de dados para uma operadora de telefonia que oferece serviços de celular, internet móvel e fixa. Você aplicará conhecimentos básicos de modelagem de dados no SQL Server para criar um sistema que gerencie contas de clientes, serviços contratados, uso dos serviços e transações financeiras.
+
+Parte 1: Estruturação do Banco de Dados
+Você começará estruturando o banco de dados para armazenar informações relevantes aos clientes e serviços oferecidos pela operadora. As tabelas a serem criadas são:
+
+Clientes: Armazena informações pessoais e financeiras dos clientes.
+Endereços: Mantém um registro detalhado dos endereços dos clientes.
+Serviços: Registra os diferentes serviços oferecidos pela operadora.
+Contratos: Detalha os contratos dos clientes com a operadora.
+Uso de Serviços: Registra o uso dos serviços pelos clientes (ligação, acesso à internet).
+Transações: Registra as transações financeiras dos clientes.
+Estrutura Básica
+Tabela Clientes
+Informações pessoais como nome, CPF e endereço.
+Contato, incluindo telefone e e-mail.
+Informações financeiras, como saldo atual.
+Tabela Endereços
+Informações sobre o endereço, como rua, número, complemento, bairro, cidade, estado e CEP.
+Referência ao cliente ou serviço ao qual o endereço está associado.
+Tabela Serviços
+Descrição do serviço (telefonia móvel, internet móvel, internet fixa).
+Detalhes do plano, como franquia de dados e minutos inclusos.
+Preço e condições do serviço.
+Tabela Contratos
+Informações sobre o início e término do contrato.
+Detalhes do plano contratado pelo cliente.
+Termos e condições específicos do serviço.
+Tabela Uso de Serviços
+Registro de uso dos serviços, como data e hora do uso.
+Quantidade de dados consumidos ou minutos utilizados.
+Identificação do serviço utilizado.
+Valor total do uso.
+Tabela Transações
+Detalhes das transações, como data, hora e valor.
+Tipo de transação (débito ou crédito).
+Descrição da transação (pagamento de fatura, compra de pacote adicional, recarga de saldo).
+Parte 2: Regras de Negócio
+Defina regras de negócio claras para garantir a integridade dos dados:
+
+Cada cliente deve ter um registro único e estar associado a um ou mais serviços através da entidade Contratos.
+O uso dos serviços e as transações financeiras devem ser registrados detalhadamente.
+As transações podem ser de débito relacionadas ao uso de algum serviço, mas também a crédito, como recargas do saldo do cliente.
+O saldo deve ficar na tabela de Clientes.
+Entrega
+Diagrama Entidade-Relacionamento (ER) do banco de dados.
+Apresentação da estrutura do banco de dados.
+Dicas Didáticas
+Comece com o diagrama ER para visualizar as relações entre as tabelas.
+Use exemplos práticos para entender como os dados serão inseridos e consultados.
+Revise as melhores práticas de normalização de banco de dados para otimizar o design.
