@@ -13,5 +13,6 @@ public class ClienteConfiguration : IEntityTypeConfiguration<Cliente>
         builder.Property(Cliente=>Cliente.Id).HasColumnName("ClienteID");
         builder.Property(Cliente=>Cliente.Nome).HasColumnName("Nome");
         builder.Property(Cliente=>Cliente.Email).HasColumnName("Email");
+        
     }
 }

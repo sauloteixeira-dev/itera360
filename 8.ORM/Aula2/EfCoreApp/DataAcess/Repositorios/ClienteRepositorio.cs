@@ -56,7 +56,6 @@ public class ClienteRepositorio : IClienteRepositorio
         const string sql = @"
        UPDATE Clientes
        SET
-       Nome = @NOME,
        Email = @Email
        WHERE
        ClienteId = @Id";
@@ -84,6 +83,8 @@ public class ClienteRepositorio : IClienteRepositorio
         var connection = _contexto.Database.GetDbConnection();
         return connection.QuerySingleOrDefault<Cliente>(sql, new { Email = email.Trim() });
     }
+
+
 
 
 

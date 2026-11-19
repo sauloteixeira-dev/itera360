@@ -6,6 +6,10 @@ public class Cliente
     public string Nome { get; set; }
     public string Email { get; set; }
 
+   
+
+
+
     //cliente tem varios pedidos = (lista)
     public List<Pedido> Pedidos { get; set; }
 }
