@@ -19,30 +19,49 @@ public partial class Program
             Console.WriteLine("Digite o Email do Cliente: ");
             cliente.Email = Console.ReadLine();
 
-            clienteRepositorio.AdicionarCliente(cliente);
+            //Adicionar novo = Salvar
+            clienteRepositorio.Salvar(cliente);
 
             Console.WriteLine("Cliente adicionado com Sucesso!");
 
-            // Busca de Clientes
+            // // Busca de Clientes por nome
             Console.WriteLine("Digite o Nome do usuário que deseja consultar");
             nomeCliente = Console.ReadLine();
 
-            var ClienteDoBanco = clienteRepositorio.ObterClientePorNome(nomeCliente);
+            // // Busca de Clientes por nome
+            var ClienteDoBanco = clienteRepositorio.Obter(nomeCliente);
 
             if (ClienteDoBanco != null)
             {
                 Console.WriteLine($"Cliente encontrado com sucesso! O cliente {ClienteDoBanco.Nome}, possui o E-mail: {ClienteDoBanco.Email}");
 
-                // Atualização de Cliente
+                // // Atualização de Cliente
                 Console.WriteLine("Digite o novo Email");
                 var novoEmail = Console.ReadLine();
 
                 ClienteDoBanco.Email = novoEmail;
 
-                clienteRepositorio.AtualizarCliente(ClienteDoBanco);
+                clienteRepositorio.Atualizar(ClienteDoBanco);
 
-                Console.WriteLine("Cliente foi atualizado com sucesso!");
+                Console.WriteLine("Cliente foi atualizado com sucesso!\n");
 
+                Console.WriteLine("Pesquisa por email");
+                Console.WriteLine("\nDigite o Email do Cliente:");
+
+                var pesquisaEmail = Console.ReadLine();
+
+                var clienteEncontrado = clienteRepositorio.ObterPorEmail(pesquisaEmail);
+
+                if (clienteEncontrado != null)
+                {
+                    Console.WriteLine("Cliente encontrado!");
+                    Console.WriteLine($"Nome: {clienteEncontrado.Nome}");
+                    Console.WriteLine($"Email: {clienteEncontrado.Email}");
+                }
+                else
+                {
+                    Console.WriteLine("Cliente não encontrado!");
+                }
                 // Remover Cliente
                 // clienteRepositorio.RemoverCliente(ClienteDoBanco);
                 // Console.WriteLine("Cliente foi Removido com sucesso!");

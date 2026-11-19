@@ -9,7 +9,8 @@ public class Contexto : DbContext
     /// Define o conjunto de entidades Cliente.
     /// </summary>
     public DbSet<Cliente> Clientes { get; set; }
-    public DbSet<Pedido> Pedidos{get;set;}
+    public DbSet<Pedido> Pedidos { get; set; }
+
 
     /// <summary>
     /// Configura as Opções de conexão com o banco de dados

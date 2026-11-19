@@ -1,0 +1,227 @@
+
+RESUMO - ENTITY FRAMEWORK CORE (EF CORE) E DAPPER
+=================================================
+
+1. DIFERENÇA ENTRE EF CORE E DAPPER
+
+ENTITY FRAMEWORK CORE:
+- É um ORM completo.
+- Trabalha com entidades e objetos C#.
+- Utiliza DbSet.
+- Permite consultas com LINQ.
+- Gerencia alterações com SaveChanges().
+- Faz o mapeamento das entidades para as tabelas.
+
+DAPPER:
+- É um micro ORM.
+- Trabalha diretamente com SQL.
+- Utiliza Query(), QuerySingleOrDefault() e Execute().
+- Permite maior controle sobre as consultas.
+- Não utiliza automaticamente os mapeamentos do EF Core.
+
+2. ERROS ENCONTRADOS NO PROJETO
+
+ERRO 1 - CONNECTIONSTRING NÃO INICIALIZADA
+
+Mensagem:
+System.InvalidOperationException:
+A propriedade ConnectionString não foi inicializada.
+
+Causa:
+O Dapper tentou abrir uma conexão SQL Server sem uma ConnectionString válida.
+
+Aprendizado:
+O Dapper precisa receber uma conexão configurada corretamente.
+
+ERRO 2 - NOME INCORRETO NO UPDATE
+
+Código incorreto:
+WHERE Id = @Id
+
+Correção:
+WHERE ClienteID = @Id
+
+Explicação:
+Na classe Cliente, a propriedade se chama Id.
+No banco de dados, a coluna se chama ClienteID.
+
+O Dapper precisa receber os parâmetros com os nomes
+correspondentes às propriedades do objeto.
+
+ERRO 3 - NÃO UTILIZAR O RETORNO DO MÉTODO
+
+Código incorreto:
+clienteRepositorio.ObterPorEmail(pesquisaEmail);
+
+Correção:
+var clienteEncontrado =
+    clienteRepositorio.ObterPorEmail(pesquisaEmail);
+
+if (clienteEncontrado != null)
+{
+    Console.WriteLine(clienteEncontrado.Nome);
+    Console.WriteLine(clienteEncontrado.Email);
+}
+else
+{
+    Console.WriteLine("Cliente não encontrado!");
+}
+
+Aprendizado:
+Quando um método retorna um objeto, precisamos
+armazenar seu retorno para utilizar suas propriedades.
+
+3. PRINCIPAIS MÉTODOS
+
+OPERAÇÃO       EF CORE             DAPPER
+-------------------------------------------------
+Inserir        Add()               Execute()
+Atualizar      Update()            Execute()
+Excluir        Remove()            Execute()
+Consultar      ToList()            Query<T>()
+Consultar um   FirstOrDefault()    QuerySingleOrDefault<T>()
+Salvar         SaveChanges()       Não utiliza
+
+4. DIFERENÇA NA CONSULTA
+
+ENTITY FRAMEWORK CORE:
+
+public Cliente? Obter(string nome)
+{
+    return _contexto.Clientes
+        .FirstOrDefault(c => c.Nome == nome);
+}
+
+DAPPER:
+
+public Cliente? Obter(string nome)
+{
+    const string sql = @"
+        SELECT *
+        FROM Clientes
+        WHERE Nome = @Nome";
+
+    var connection =
+        _contexto.Database.GetDbConnection();
+
+    return connection.QuerySingleOrDefault<Cliente>(
+        sql,
+        new { Nome = nome });
+}
+
+5. QUANDO UTILIZAR CADA UM?
+
+EF CORE:
+- CRUD convencional.
+- Relacionamentos entre entidades.
+- Consultas com LINQ.
+- Desenvolvimento rápido.
+- Gerenciamento de entidades.
+
+DAPPER:
+- Consultas SQL personalizadas.
+- Relatórios complexos.
+- Consultas com muitos JOINs.
+- Controle total sobre SQL.
+- Cenários em que se deseja executar SQL diretamente.
+
+6. CINCO CONCEITOS IMPORTANTES
+
+1. EF Core e Dapper podem trabalhar juntos.
+
+2. EF Core conhece seus mapeamentos.
+   Dapper utiliza os nomes informados no SQL.
+
+3. Dapper exige que você escreva as consultas SQL.
+
+4. Os parâmetros SQL precisam corresponder
+   às propriedades dos objetos C#.
+
+5. Métodos que retornam objetos precisam ter
+   seus resultados armazenados para utilização.
+
+7. CONCLUSÃO
+
+Entity Framework Core e Dapper são tecnologias
+diferentes, mas podem ser utilizadas em conjunto.
+
+O EF Core facilita o gerenciamento das entidades,
+enquanto o Dapper oferece controle direto sobre SQL.
+
+Conhecer os dois permite escolher a ferramenta
+mais adequada para cada situação.
+
+================================================================================
+
+
+8. PROBLEMA COM USING E GERENCIAMENTO DA CONEXÃO
+
+CÓDIGO QUE ESTAVA SENDO UTILIZADO:
+
+using var connection = _contexto.Database.GetDbConnection();
+
+return connection.QuerySingleOrDefault<Cliente>(
+    sql,
+    new { Nome = nome });
+
+
+QUAL ERA O PROBLEMA?
+
+O using descarta (Dispose) o objeto ao final do método.
+
+Como a conexão foi obtida através do Entity Framework Core,
+ela pertence ao gerenciamento do DbContext.
+
+Descartá-la manualmente pode causar problemas quando
+outros métodos do repositório precisam utilizar a mesma conexão.
+
+
+CORREÇÃO ADOTADA:
+
+var connection = _contexto.Database.GetDbConnection();
+
+return connection.QuerySingleOrDefault<Cliente>(
+    sql,
+    new { Nome = nome });
+
+
+POR QUE REMOVEMOS O USING?
+
+- Evitamos descartar manualmente a conexão gerenciada pelo EF Core.
+- Permitimos que o DbContext continue gerenciando o ciclo
+  de vida da conexão.
+- Evitamos problemas ao executar outros métodos do repositório.
+
+
+IMPORTANTE:
+
+O Dapper abre e fecha automaticamente uma conexão que esteja
+inicialmente fechada, quando necessário.
+
+Entretanto, não devemos descartar manualmente uma conexão
+compartilhada pertencente ao DbContext.
+
+
+RESUMO PARA MEMORIZAR:
+
+USING:
+Descarta o objeto ao final do escopo.
+
+GetDbConnection():
+Obtém a conexão gerenciada pelo Entity Framework Core.
+
+DAPPER:
+Executa comandos SQL utilizando essa conexão.
+
+DBCONTEXT:
+Gerencia o ciclo de vida da conexão.
+
+CONCLUSÃO:
+
+Quando utilizamos Dapper junto com Entity Framework Core,
+precisamos ter cuidado com o gerenciamento da conexão.
+
+Se a conexão pertence ao DbContext, devemos evitar descartá-la
+manualmente em cada método do repositório.
+
+FIM DO RESUMO

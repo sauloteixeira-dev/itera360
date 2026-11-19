@@ -2,8 +2,28 @@ using Dominio;
 
 public interface IClienteRepositorio
 {
-    void AdicionarCliente(Cliente cliente);
-    Cliente ObterClientePorNome(string nome);
-    void AtualizarCliente(Cliente cliente);
-    void RemoverCliente(Cliente cliente);
+    //Adicionar utilizando o ORM
+    // void AdicionarCliente(Cliente cliente);
+
+    //Obter utilizando o ORM
+    // Cliente ObterClientePorNome(string nome);
+
+    //Atualizar utilizando ORM
+    // void AtualizarCliente(Cliente cliente);
+    //Remover utilizando ORM
+    //void RemoverCliente(Cliente cliente);
+
+    //--------utilizando Dapper
+
+    int Salvar(Cliente cliente);
+    void Atualizar(Cliente cliente);
+    Cliente Obter(string nome);
+    Cliente ObterPorEmail(string email);
+
+
+
+
+
+
+
 }
