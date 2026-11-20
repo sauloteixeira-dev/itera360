@@ -12,66 +12,66 @@ public partial class Program
             var cliente = new Cliente();
             var nomeCliente = string.Empty;
 
-            // // Cadastro de Cliente
-            // Console.WriteLine("Digite o nome do Cliente: ");
-            // cliente.Nome = Console.ReadLine();
+            // Cadastro de Cliente
+            Console.WriteLine("Digite o nome do Cliente: ");
+            cliente.Nome = Console.ReadLine();
 
-            // Console.WriteLine("Digite o Email do Cliente: ");
-            // cliente.Email = Console.ReadLine();
+            Console.WriteLine("Digite o Email do Cliente: ");
+            cliente.Email = Console.ReadLine();
 
-            // //Adicionar novo = Salvar
-            // clienteRepositorio.Salvar(cliente);
+            //Adicionar novo = Salvar
+            clienteRepositorio.Salvar(cliente);
 
-            // Console.WriteLine("Cliente adicionado com Sucesso!");
+            Console.WriteLine("Cliente adicionado com Sucesso!");
 
-            // // Busca de Clientes por nome
-            // Console.WriteLine("Digite o Nome do usuário que deseja consultar");
+            // Busca de Clientes por nome
+            Console.WriteLine("Digite o Nome do usuário que deseja consultar");
 
-            // nomeCliente = Console.ReadLine();
+            nomeCliente = Console.ReadLine();
 
-            // var ClienteDoBanco = clienteRepositorio.Obter(nomeCliente);
+            var ClienteDoBanco = clienteRepositorio.Obter(nomeCliente);
 
-            // if (ClienteDoBanco != null)
-            // {
-            //     Console.WriteLine($"Cliente encontrado: {ClienteDoBanco.Nome}");
-            //     Console.WriteLine($"ID: {ClienteDoBanco.ClienteId}");
+            if (ClienteDoBanco != null)
+            {
+                Console.WriteLine($"Cliente encontrado: {ClienteDoBanco.Nome}");
+                Console.WriteLine($"ID: {ClienteDoBanco.ClienteId}");
 
-            //     Console.WriteLine("Digite o novo Email");
+                Console.WriteLine("Digite o novo Email");
 
-            //     var novoEmail = Console.ReadLine();
+                var novoEmail = Console.ReadLine();
 
-            //     ClienteDoBanco.Email = novoEmail;
+                ClienteDoBanco.Email = novoEmail;
 
-            //     clienteRepositorio.Atualizar(ClienteDoBanco);
+                clienteRepositorio.Atualizar(ClienteDoBanco);
 
-            //     Console.WriteLine("Cliente foi atualizado!");
-            //     Console.WriteLine(ClienteDoBanco.Email);
+                Console.WriteLine("Cliente foi atualizado!");
+                Console.WriteLine(ClienteDoBanco.Email);
 
-                // Console.WriteLine("Pesquisa por email");
-                // Console.WriteLine("\nDigite o Email do Cliente:");
+                Console.WriteLine("Pesquisa por email");
+                Console.WriteLine("\nDigite o Email do Cliente:");
 
-                // var pesquisaEmail = Console.ReadLine();
+                var pesquisaEmail = Console.ReadLine();
 
-                // var clienteEncontrado = clienteRepositorio.ObterPorEmail(pesquisaEmail);
+                var clienteEncontrado = clienteRepositorio.ObterPorEmail(pesquisaEmail);
 
-                // if (clienteEncontrado != null)
-                // {
-                //     Console.WriteLine("Cliente encontrado!");
-                //     Console.WriteLine($"Nome: {clienteEncontrado.Nome}");
-                //     Console.WriteLine($"Email: {clienteEncontrado.Email}");
-                // }
-                // else
-                // {
-                //     Console.WriteLine("Cliente não encontrado!");
-                // }
+                if (clienteEncontrado != null)
+                {
+                    Console.WriteLine("Cliente encontrado!");
+                    Console.WriteLine($"Nome: {clienteEncontrado.Nome}");
+                    Console.WriteLine($"Email: {clienteEncontrado.Email}");
+                }
+                else
+                {
+                    Console.WriteLine("Cliente não encontrado!");
+                }
                 // Remover Cliente
                 // clienteRepositorio.RemoverCliente(ClienteDoBanco);
                 // Console.WriteLine("Cliente foi Removido com sucesso!");
-            // }
-            // else
-            // {
-            //     Console.WriteLine("Cliente não encontrado");
-            // }
+            }
+            else
+            {
+                Console.WriteLine("Cliente não encontrado");
+            }
         }
     }
 }
