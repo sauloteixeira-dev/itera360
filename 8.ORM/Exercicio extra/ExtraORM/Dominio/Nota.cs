@@ -6,11 +6,11 @@ public class Nota
     public decimal NotaNota { get; set; }
     public DateTime NotaDataLancamento { get; set; }
 
-    //FK
+    // FK - Aluno
     public int AlunoId { get; set; }
     public Aluno Aluno { get; set; }
 
-    //FK
+    // FK - Curso
     public int CursoId { get; set; }
     public Curso Curso { get; set; }
 }
