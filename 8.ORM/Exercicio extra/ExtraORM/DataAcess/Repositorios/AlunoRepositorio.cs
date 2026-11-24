@@ -90,11 +90,8 @@ public class AlunoRepositorio
         }
     }
 
-    //6.	Liste os cursos com carga horária maior que 50 horas.
-    public void MaisdeCinquentaHoras()
-    {
-        
-    }
+    //6. continua em cursosRepositorio
+    //-------------------------------------------------------------------
 
 
 }
