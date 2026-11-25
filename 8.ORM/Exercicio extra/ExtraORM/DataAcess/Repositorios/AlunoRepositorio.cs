@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using DataAcess;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
 
 public class AlunoRepositorio
 {
@@ -38,10 +39,12 @@ public class AlunoRepositorio
         foreach (var aluno in alunos)
         {
             if (aluno.AlunoIdade >= 18)
+            {
                 Console.WriteLine($"ID: {aluno.AlunoId}");
-            Console.WriteLine($"Nome: {aluno.AlunoNome}");
-            Console.WriteLine($"Idade: {aluno.AlunoIdade}");
-            Console.WriteLine("----------------------");
+                Console.WriteLine($"Nome: {aluno.AlunoNome}");
+                Console.WriteLine($"Idade: {aluno.AlunoIdade}");
+                Console.WriteLine("----------------------");
+            }
         }
     }
 
@@ -90,8 +93,127 @@ public class AlunoRepositorio
         }
     }
 
-    //6. continua em cursosRepositorio
-    //-------------------------------------------------------------------
+    //10.	Retorne nome e idade dos alunos nascidos depois de 2006.
+    public void AlunosNascidosPos()
+    {
+        var DepoisDe2006 = _contexto.Aluno.Where(a => a.AlunoDataNascimento.Year > 2006).ToList();
+
+        foreach (var doisMilESeis in DepoisDe2006)
+        {
+            Console.WriteLine($"Nome: {doisMilESeis.AlunoNome} - Ano Nascimento: {doisMilESeis.AlunoDataNascimento.Year}");
+        }
+    }
+
+    //13.	Liste todos os alunos, incluindo os que não estão matriculados em nenhum curso.
+    public void AllAlunos()
+    {
+        var alunos = _contexto.Aluno
+        .Include(a => a.Matriculas)
+        .ThenInclude(m => m.Curso)
+        .ToList();
+
+        foreach (var all in alunos)
+        {
+            Console.WriteLine($"Nome: {all.AlunoNome} ");
+            if (all.Matriculas.Any())
+            {
+                foreach (var a in all.Matriculas)
+                {
+                    Console.WriteLine($"Curso: {a.Curso.CursoNome}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Não está matriculado em nenhum curso.");
+            }
+        }
+
+    }
+    // 15. Monte uma lista combinando alunos e cursos, contemplando também os casos sem correspondência.
+    public void ListAlunoCursos()
+    {
+        var alunos = _contexto.Aluno
+            .Include(a => a.Matriculas)
+            .ThenInclude(m => m.Curso)
+            .ToList();
+
+        var cursos = _contexto.Curso
+            .Include(c => c.Matriculas)
+            .ThenInclude(m => m.Aluno)
+            .ToList();
+
+        var resultado = alunos
+            .SelectMany(a => a.Matriculas.DefaultIfEmpty(),
+                (a, m) => new
+                {
+                    Aluno = a.AlunoNome,
+                    Curso = m?.Curso?.CursoNome
+                })
+            .Concat(
+                cursos
+                    .Where(c => !c.Matriculas.Any())
+                    .Select(c => new
+                    {
+                        Aluno = (string)null,
+                        Curso = c.CursoNome
+                    })
+            );
+
+        foreach (var item in resultado)
+        {
+            Console.WriteLine($"Aluno: {item.Aluno ?? "Sem aluno"} - Curso: {item.Curso ?? "Sem curso"}");
+        }
+    }
+
+    //16.	Mostre nome do aluno, nome do curso e a nota obtida, unindo Alunos, Cursos e Notas.
+    public void AlunoCursoNota()
+    {
+        var resultado = _contexto.Nota
+        .Include(n => n.Aluno)
+        .Include(n => n.Curso)
+        .ToList();
+
+        foreach (var nota in resultado)
+        {
+            Console.WriteLine($"Nome: {nota.Aluno.AlunoNome} - Curso: {nota.Curso.CursoNome} - Nota: {nota.NotaNota}");
+        }
+    }
+
+    //18.	Liste o nome de cada aluno junto com o nome do professor dos cursos em que ele está matriculado.
+    public void NomeAlunoMatriculado()
+    {
+        var a = _contexto.Matricula
+        .Include(a => a.Aluno)
+        .Include(a => a.Curso)
+        .ThenInclude(b => b.Professor)
+        .ToList();
+
+        foreach (var i in a)
+        {
+            Console.WriteLine($"Nome Aluno: {i.Aluno.AlunoNome} - Nome Professor: {i.Curso.Professor.ProfessorNome}");
+        }
+    }
+
+    //19.	Conte quantos alunos existem no total.
+    public void ContaAluno()
+    {
+        var count = _contexto.Aluno.Count();
+
+        Console.WriteLine($"Total de Alunos: {count}");
+    }
+
+    //20.	Calcule a média de idade dos alunos.
+    public void IdadeMediaAlunos()
+    {
+        var count = _contexto.Aluno.Average(a => a.AlunoIdade);
+
+        Console.WriteLine($"A média de Idade dos Alunos: {count:F2}");
+    }
+
+
+
+
+
 
 
 }
