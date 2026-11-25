@@ -49,7 +49,7 @@ public class MatriculaRepositorio
             Console.WriteLine($"Curso: {item.Curso} - Quantidade de alunos: {item.QuantidadeAlunos}");
         }
     }
-
+    
 
 
 

@@ -53,12 +53,6 @@ public class ProfessorRepositorio
             Console.WriteLine($"Curso: {prof.CursoNome} - Professor: {prof.Professor.ProfessorNome}");
         }
     }
-    /*public void IdadeMediaAlunos()
-        {
-            var count = _contexto.Aluno.Average(a => a.AlunoIdade);
-
-        Console.WriteLine($"A média de Idade dos Alunos: {count:F2}");
-        }*/
 
     //21.	Calcule o salário médio dos professores.
     public void SalarioMedioProfessores()
@@ -75,6 +69,22 @@ public class ProfessorRepositorio
 
         Console.WriteLine($"O Menor Salario é: {min:C2} e o Maior é: {max:C2}");
     }
+
+    //27. Some a carga horária total ministrada por cada professor
+    public void CargaHorariaTotalPorProfessor()
+    {
+        var prof = _contexto.Professor
+        .Include(c => c.Cursos)
+        .ToList();
+
+        foreach (var i in prof)
+        {
+            var cargaTotal = i.Cursos.Sum(c => c.CursoCargaHoraria);
+            Console.WriteLine($"Nome: {i.ProfessorNome} - Carga Horaria: {cargaTotal}h");
+        }
+    }
+
+
 
 
 }

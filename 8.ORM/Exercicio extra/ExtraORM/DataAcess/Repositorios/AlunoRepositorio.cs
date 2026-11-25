@@ -8,6 +8,8 @@ using DataAcess;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 using System.Net.Http.Headers;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using Microsoft.EntityFrameworkCore.Storage;
 
 public class AlunoRepositorio
 {
@@ -210,6 +212,157 @@ public class AlunoRepositorio
         Console.WriteLine($"A média de Idade dos Alunos: {count:F2}");
     }
 
+    //26.	Mostre a quantidade de alunos agrupados por estado.
+    public void qtdAlunosPorEstado()
+    {
+        var alunosPorEstado = _contexto.Aluno
+        .GroupBy(a => a.AlunoEstado)
+        .Select(g => new
+        {
+            Estado = g.Key,
+            Quantidade = g.Count()
+        }).ToList();
+
+        foreach (var o in alunosPorEstado)
+        {
+            Console.WriteLine($"Estado: {o.Estado} - Quantidade de Alunos: {o.Quantidade}");
+        }
+    }
+
+    //30.	Encontre o aluno com a maior nota registrada.
+    public void AlunoMaiorNota()
+    {
+        var a = _contexto.Aluno
+        .SelectMany(a => a.Notas, (aluno, nota) => new
+        {
+            Aluno = aluno,
+            Nota = nota.NotaNota
+        })
+        .OrderByDescending(c => c.Nota)
+        .FirstOrDefault();
+
+        if (a != null)
+        {
+            Console.WriteLine($"Aluno: {a.Aluno.AlunoNome}");
+            Console.WriteLine($"Maior nota: {a.Nota}");
+        }
+
+    }
+
+    //31.	Insira um novo aluno chamado "Maria Silva", 17 anos, cidade de Salvador (BA).
+    public void InserirAluno()
+    {
+        var aluno = new Aluno
+        {
+            AlunoNome = "Maria Silva",
+            AlunoIdade = 17,
+            AlunoCidade = "Salvador",
+            AlunoEstado = "BA"
+        };
+
+        _contexto.Aluno.Add(aluno);
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Aluno cadastrado com sucesso!");
+    }
+
+    //34. Atualizar a cidade dos alunos do estado SP
+    public void AtualizarCidade()
+    {
+        var alunos = _contexto.Aluno
+            .Where(a => a.AlunoEstado == "SP")
+            .ToList();
+
+        foreach (var aluno in alunos)
+        {
+            aluno.AlunoCidade = "São Paulo (Capital)";
+        }
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Cidades atualizadas com sucesso!");
+    }
+    //35. Atualizar a nota de Lucas Almeida no curso Matemática Básica
+    public void AtualizarNota()
+    {
+        var nota = _contexto.Nota
+            .Include(n => n.Aluno)
+            .Include(n => n.Curso)
+            .FirstOrDefault(n =>
+                n.Aluno.AlunoNome == "Lucas Almeida" &&
+                n.Curso.CursoNome == "Matemática Básica"
+            );
+
+        if (nota != null)
+        {
+            nota.NotaNota = 9.5m;
+
+            _contexto.SaveChanges();
+
+            Console.WriteLine("Nota atualizada com sucesso!");
+        }
+        else
+        {
+            Console.WriteLine("Nota não encontrada!");
+        }
+    }
+
+    //36. Remova todas as notas menores que 6.0
+    public void RemoverNotasBaixas()
+    {
+        var notas = _contexto.Nota
+            .Where(n => n.NotaNota < 6.0m)
+            .ToList();
+
+        _contexto.Nota.RemoveRange(notas);
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Notas removidas com sucesso!");
+    }
+
+    //37. Remova todos os alunos que não possuem nenhuma matrícula
+    public void RemoverAlunosSemMatricula()
+    {
+        var alunos = _contexto.Aluno
+            .Where(a => !a.Matriculas.Any())
+            .ToList();
+
+        _contexto.Aluno.RemoveRange(alunos);
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Alunos removidos com sucesso!");
+    }
+
+    //38. Insira uma nova nota para Fernanda Costa no curso Gramática Avançada
+    public void InserirNovaNota()
+    {
+        var aluno = _contexto.Aluno
+            .FirstOrDefault(a => a.AlunoNome == "Fernanda Costa");
+
+        var curso = _contexto.Curso
+            .FirstOrDefault(c => c.CursoNome == "Gramática Avançada");
+
+        if (aluno == null || curso == null)
+        {
+            Console.WriteLine("Aluno ou curso não encontrado!");
+            return;
+        }
+
+        var nota = new Nota
+        {
+            NotaNota = 8.0m,
+            Aluno = aluno,
+            Curso = curso
+        };
+
+        _contexto.Nota.Add(nota);
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Nota cadastrada com sucesso!");
+    }
 
 
 

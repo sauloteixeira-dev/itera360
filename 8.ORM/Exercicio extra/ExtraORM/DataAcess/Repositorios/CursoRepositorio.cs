@@ -8,6 +8,7 @@ using DataAcess;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
+using System.ComponentModel;
 
 public class CursoRepositorio
 {
@@ -128,6 +129,120 @@ public class CursoRepositorio
             Console.WriteLine($"Curso: {i.Curso} - Média: {i.Media:F2}");
         }
     }
+
+    //28.	Encontre o curso com a maior média de notas.
+
+    public void MaiorMediaNotas()
+    {
+        var curso = _contexto.Curso
+        .Include(c => c.Notas)
+        .ToList()
+        .Where(c => c.Notas.Any())
+        .Select(c => new
+        {
+            Curso = c,
+            Media = c.Notas.Average(n => n.NotaNota)
+        }).OrderByDescending(c => c.Media)
+        .FirstOrDefault();
+        if (curso != null)
+        {
+            Console.WriteLine($"Curso: {curso.Curso.CursoNome} - Maior média: {curso.Media:F2}");
+        }
+
+    }
+    //29.	Calcule a média geral de todas as notas do sistema.
+    public void mediaGeralNotas()
+    {
+        var m = _contexto.Nota.Average(n => n.NotaNota);
+
+        Console.WriteLine($"Media geral : {m:F2}");
+    }
+
+    //32.	Insira um novo curso chamado "Banco de Dados", 80h de carga horária, ministrado por "João Pereira".
+    public void InserirNovoCurso()
+    {
+        var professor = _contexto.Professor.FirstOrDefault(p => p.ProfessorNome == "João Pereira");
+
+        if (professor == null)
+        {
+            professor = new Professor
+            {
+                ProfessorNome = "João Pereira"
+            };
+            _contexto.Professor.Add(professor);
+        }
+
+        var curso = new Curso
+        {
+            CursoNome = "Banco de Dados",
+            CursoCargaHoraria = 80,
+            Professor = professor
+        };
+        _contexto.Curso.Add(curso);
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Curso Cadastrado com Sucesso");
+    }
+
+    //33.	Aumente o salário de todos os professores em 10%.
+    public void AumentarSalario()
+    {
+        var professores = _contexto.Professor.ToList();
+
+        foreach (var professor in professores)
+        {
+            professor.ProfessorSalario *= 1.10m;
+        }
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Salários atualizados com sucesso!");
+    }
+
+    //39. Atualize História do Brasil para 60h
+    public void AtualizarCargaHoraria()
+    {
+        var curso = _contexto.Curso
+            .FirstOrDefault(c => c.CursoNome == "História do Brasil");
+
+        if (curso != null)
+        {
+            curso.CursoCargaHoraria = 60;
+
+            _contexto.SaveChanges();
+
+            Console.WriteLine("Carga horária atualizada!");
+        }
+        else
+        {
+            Console.WriteLine("Curso não encontrado!");
+        }
+    }
+
+    //40. Remova Lógica de Programação (cuidado com dependências)
+    public void RemoverCurso()
+    {
+        var curso = _contexto.Curso
+            .Include(c => c.Notas)
+            .FirstOrDefault(c => c.CursoNome == "Lógica de Programação");
+
+        if (curso == null)
+        {
+            Console.WriteLine("Curso não encontrado!");
+            return;
+        }
+
+        _contexto.Nota.RemoveRange(curso.Notas);
+
+        _contexto.Curso.Remove(curso);
+
+        _contexto.SaveChanges();
+
+        Console.WriteLine("Curso removido com sucesso!");
+    }
+
+
+
 
 
 
