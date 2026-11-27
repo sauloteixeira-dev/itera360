@@ -26,7 +26,8 @@ public class AlunoConfiguration : IEntityTypeConfiguration<Aluno>
             .HasColumnName("AlunoDataNascimento");
 
         builder.Property(aluno => aluno.AlunoCidade)
-            .HasColumnName("AlunoCidade");
+            .HasColumnName("AlunoCidade")
+            .HasMaxLength(100);
 
         builder.Property(aluno => aluno.AlunoEstado)
             .HasColumnName("AlunoEstado");
@@ -38,7 +39,7 @@ public class AlunoConfiguration : IEntityTypeConfiguration<Aluno>
 
         // Relacionamento 1:N com Nota
         builder.HasMany(aluno => aluno.Notas)
-            .WithOne(nota =>nota.Aluno)
+            .WithOne(nota => nota.Aluno)
             .HasForeignKey(nota => nota.AlunoId);
     }
 }

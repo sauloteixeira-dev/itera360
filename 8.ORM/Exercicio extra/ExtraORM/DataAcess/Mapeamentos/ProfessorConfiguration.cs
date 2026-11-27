@@ -10,28 +10,32 @@ public class ProfessorConfiguration : IEntityTypeConfiguration<Professor>
     {
         // Tabela e chave primária
         builder.ToTable("Professor");
-        builder.HasKey(professor=>professor.ProfessorId);
+        builder.HasKey(professor => professor.ProfessorId);
 
         // Propriedades
-        builder.Property(professor=>professor.ProfessorId)
+        builder.Property(professor => professor.ProfessorId)
             .HasColumnName("ProfessorId");
 
-        builder.Property(professor=>professor.ProfessorNome)
+        builder.Property(professor => professor.ProfessorNome)
             .HasColumnName("ProfessorNome");
 
-        builder.Property(professor=>professor.ProfessorIdade)
+        builder.Property(professor => professor.ProfessorIdade)
             .HasColumnName("ProfessorIdade");
 
-        builder.Property(professor=>professor.ProfessorSalario)
+        builder.Property(professor => professor.ProfessorSalario)
             .HasColumnName("ProfessorSalario")
             .HasPrecision(18, 2);
 
-        builder.Property(professor=>professor.ProfessorEspecialidade)
+        builder.Property(professor => professor.ProfessorEspecialidade)
             .HasColumnName("ProfessorEspecialidade");
 
+        builder.Property(professor => professor.ProfessorEmail)
+        .HasColumnName("ProfessorEmail")
+        .HasMaxLength(150);
+
         // Relacionamento 1:N com Curso
-        builder.HasMany(professor=>professor.Cursos)
-            .WithOne(curso=>curso.Professor)
-            .HasForeignKey(curso=>curso.ProfessorId);
+        builder.HasMany(professor => professor.Cursos)
+            .WithOne(curso => curso.Professor)
+            .HasForeignKey(curso => curso.ProfessorId);
     }
 }

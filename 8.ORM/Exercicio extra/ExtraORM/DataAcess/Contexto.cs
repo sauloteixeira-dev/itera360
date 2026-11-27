@@ -11,6 +11,7 @@ public class Contexto : DbContext
     public DbSet<Nota> Nota { get; set; }
     public DbSet<Professor> Professor { get; set; }
 
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(

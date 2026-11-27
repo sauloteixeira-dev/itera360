@@ -4,10 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
+
 using DataAcess;
 using Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
+using Microsoft.Identity.Client;
 
 public class ProfessorRepositorio
 {
@@ -84,6 +86,45 @@ public class ProfessorRepositorio
         }
     }
 
+    // 41. Criar tabela Turmas
+    public void CriarTabelaTurmas()
+    {
+        _contexto.Database.ExecuteSqlRaw(@"
+            CREATE TABLE Turmas (
+            TurmaId INT IDENTITY(1,1) PRIMARY KEY,
+            TurmaNome NVARCHAR(100) NOT NULL,
+            TurmaAnoLetivo INT NOT NULL)
+        ");
+    }
+    // 44. Criar tabela Departamentos
+    public void CriarTabelaDepartamentos()
+    {
+        _contexto.Database.ExecuteSqlRaw(@"
+        CREATE TABLE Departamentos (
+            DepartamentoId INT IDENTITY(1,1) PRIMARY KEY,
+            DepartamentoNome NVARCHAR(100) NOT NULL,
+            ProfessorChefeId INT NOT NULL,
+            FOREIGN KEY (ProfessorChefeId)
+            REFERENCES Professor(ProfessorId)
+        );
+    ");
+    }
+
+
+    // 45. Remover tabela Departamentos
+    public void RemoverTabelaDepartamentos()
+    {
+        _contexto.Database.ExecuteSqlRaw(
+            "DROP TABLE Departamentos;"
+        );
+    }
+    // 46. Remover tabela Turmas
+    public void RemoverTabelaTurmas()
+    {
+        _contexto.Database.ExecuteSqlRaw(
+            "DROP TABLE Turmas;"
+        );
+    }
 
 
 

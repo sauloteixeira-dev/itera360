@@ -30,17 +30,7 @@ public class CursoRepositorio
             Console.WriteLine("----------------------");
         }
     }
-    // public void ListarProfessoresPeloSalario()
-    //     {
-    //         var professores = _contexto.Professor
-    //         .OrderByDescending(p => p.ProfessorSalario)
-    //         .ToList();
 
-    //         foreach (var prof in professores)
-    //         {
-    //             Console.WriteLine($"Nome: {prof.ProfessorNome} - Salario: {prof.ProfessorSalario}");
-    //         }
-    //     }
     //9.	Liste nome e carga horária dos cursos, ordenando da maior para a menor.
     public void CursoCargaHorariaMaiorMenor()
     {
@@ -241,11 +231,6 @@ public class CursoRepositorio
         Console.WriteLine("Curso removido com sucesso!");
     }
 
-
-
-
-
-
-
-
+    //41.	Crie uma nova entidade Turmas com os campos: Id, NomeTurma, AnoLetivo.
+    
 }

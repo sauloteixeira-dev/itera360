@@ -32,7 +32,8 @@ namespace ExtraORM.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AlunoId"));
 
                     b.Property<string>("AlunoCidade")
-                        .HasColumnType("nvarchar(max)")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
                         .HasColumnName("AlunoCidade");
 
                     b.Property<DateTime>("AlunoDataNascimento")
@@ -152,6 +153,11 @@ namespace ExtraORM.Migrations
                         .HasColumnName("ProfessorId");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProfessorId"));
+
+                    b.Property<string>("ProfessorEmail")
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("ProfessorEmail");
 
                     b.Property<string>("ProfessorEspecialidade")
                         .HasColumnType("nvarchar(max)")
